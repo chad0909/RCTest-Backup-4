@@ -17,6 +17,7 @@
 		E54CE7E428827E1600537C09 /* RCtest_BunJangAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE7E328827E1600537C09 /* RCtest_BunJangAppTests.swift */; };
 		E54CE7EE28827E1600537C09 /* RCtest_BunJangAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE7ED28827E1600537C09 /* RCtest_BunJangAppUITests.swift */; };
 		E54CE7F028827E1600537C09 /* RCtest_BunJangAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE7EF28827E1600537C09 /* RCtest_BunJangAppUITestsLaunchTests.swift */; };
+		E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE809288318C000537C09 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E54CE7E928827E1600537C09 /* RCtest-BunJangAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RCtest-BunJangAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54CE7ED28827E1600537C09 /* RCtest_BunJangAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCtest_BunJangAppUITests.swift; sourceTree = "<group>"; };
 		E54CE7EF28827E1600537C09 /* RCtest_BunJangAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCtest_BunJangAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E54CE809288318C000537C09 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 		E54CE807288314F400537C09 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				E54CE809288318C000537C09 /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
 				E54CE7CE28827E1500537C09 /* ViewController.swift in Sources */,
 				E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */,
