@@ -18,7 +18,7 @@ class LoginViewController: BaseViewController {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "DifferentLoginViewController") as! DifferentLoginViewController
         vc.modalPresentationStyle = .overCurrentContext
-        self.present(vc, animated: false)
+        self.present(vc, animated: true, completion: nil)
     }
     
     var nowPage: Int = 0

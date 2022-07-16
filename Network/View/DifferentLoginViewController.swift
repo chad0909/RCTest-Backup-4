@@ -9,23 +9,51 @@ import UIKit
 
 class DifferentLoginViewController: UIViewController {
 
-    @IBOutlet var SuperView: UIView!
+    @IBOutlet weak var popupView: UIView!
+    @IBOutlet weak var background: UIView!
+    //코드로 연결함
+    @IBAction func backgroundTap(_ sender: UITapGestureRecognizer){
+      self.dismiss(animated: true,
+      completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        popupView.clipsToBounds = true
+        popupView.layer.cornerRadius = 15
+        popupView.layer.maskedCorners = CACornerMask(arrayLiteral: .layerMinXMinYCorner, .layerMaxXMinYCorner)
+        
+        backgroundDismiss()
+//        backgroundTint()
 
-        // Do any additional setup after loading the view.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.background.alpha = 0.25
+        
     }
-    */
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.background.alpha = 0
+    }
+    
+    
+    func backgroundDismiss(){
+        background.addGestureRecognizer(UITapGestureRecognizer(target: self, action:#selector(self.backgroundTap(_:))))
+    }
+
+    func backgroundTint(){
+        
+    }
+
+    
+
 
 }
+
+
+
+
+
