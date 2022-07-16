@@ -6,26 +6,132 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RCtest_BunJangApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="RCtest_BunJangApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="9bi-WW-IZu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="553"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="qzg-7K-gMB">
+                                    <size key="itemSize" width="415" height="541"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LoginCollectionViewCell" id="HXb-j8-imP" customClass="LoginCollectionViewCell" customModule="RCtest_BunJangApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="6" width="415" height="541"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wgW-pT-Zv2">
+                                            <rect key="frame" x="0.0" y="0.0" width="415" height="541"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HQg-TN-RFR">
+                                                    <rect key="frame" x="30" y="50" width="355" height="461"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="HQg-TN-RFR" secondAttribute="trailing" constant="30" id="Eid-VC-7pO"/>
+                                                <constraint firstAttribute="bottom" secondItem="HQg-TN-RFR" secondAttribute="bottom" constant="30" id="IlI-cU-Xag"/>
+                                                <constraint firstItem="HQg-TN-RFR" firstAttribute="top" secondItem="wgW-pT-Zv2" secondAttribute="top" constant="50" id="UdH-BL-Fgz"/>
+                                                <constraint firstItem="HQg-TN-RFR" firstAttribute="leading" secondItem="wgW-pT-Zv2" secondAttribute="leading" constant="30" id="VEy-KM-jQg"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="415" height="541"/>
+                                        <connections>
+                                            <outlet property="imgView" destination="HQg-TN-RFR" id="0YT-yL-3Kq"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" defersCurrentPageDisplay="YES" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="Gfb-2n-fnv">
+                                <rect key="frame" x="0.0" y="602" width="414" height="26"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" systemColor="labelColor"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mu9-s5-Zid">
+                                <rect key="frame" x="30" y="663" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ciH-Mx-i7A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="40" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="100" maxY="0.0"/>
+                                <state key="normal" title="카카오톡으로 로그인" image="kakao2">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1t-Xp-SMx">
+                                <rect key="frame" x="30" y="723" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fxG-21-Maq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="135" maxY="0.0"/>
+                                <state key="normal" title="Apple로 로그인" image="apple">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="577-fR-hOi">
+                                <rect key="frame" x="100" y="803" width="214" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="다른 방법으로 로그인">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w1t-Xp-SMx" secondAttribute="trailing" constant="30" id="0V0-C1-24V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gfb-2n-fnv" secondAttribute="trailing" id="6Tq-W0-4Dm"/>
+                            <constraint firstItem="9bi-WW-IZu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="A5K-Oy-n3u"/>
+                            <constraint firstItem="9bi-WW-IZu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Awa-6Y-87P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9bi-WW-IZu" secondAttribute="trailing" id="BGt-vv-BGo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="577-fR-hOi" secondAttribute="trailing" constant="100" id="C04-Kb-2N1"/>
+                            <constraint firstItem="Gfb-2n-fnv" firstAttribute="top" secondItem="9bi-WW-IZu" secondAttribute="bottom" constant="5" id="G2N-dr-hcM"/>
+                            <constraint firstItem="w1t-Xp-SMx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="HMN-mC-tu8"/>
+                            <constraint firstItem="577-fR-hOi" firstAttribute="top" secondItem="w1t-Xp-SMx" secondAttribute="bottom" constant="30" id="K4b-uH-n6Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="577-fR-hOi" secondAttribute="bottom" constant="30" id="MuH-ap-mk7"/>
+                            <constraint firstItem="Gfb-2n-fnv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="O4P-JR-vLl"/>
+                            <constraint firstItem="Mu9-s5-Zid" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="YmP-mp-HYM"/>
+                            <constraint firstItem="w1t-Xp-SMx" firstAttribute="top" secondItem="Mu9-s5-Zid" secondAttribute="bottom" constant="10" id="ZiP-x4-Nbd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mu9-s5-Zid" secondAttribute="trailing" constant="30" id="iYU-UB-5rp"/>
+                            <constraint firstItem="Gfb-2n-fnv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sLc-NJ-irr"/>
+                            <constraint firstItem="Mu9-s5-Zid" firstAttribute="top" secondItem="Gfb-2n-fnv" secondAttribute="bottom" constant="35" id="uzM-os-duV"/>
+                            <constraint firstItem="577-fR-hOi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="xL0-dZ-DZH"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="appleLogin" destination="w1t-Xp-SMx" id="OxH-NB-Io6"/>
+                        <outlet property="diffLogin" destination="577-fR-hOi" id="S62-3I-wyi"/>
+                        <outlet property="kakaoLogin" destination="Mu9-s5-Zid" id="3uf-el-U1q"/>
+                        <outlet property="loginCollectionView" destination="9bi-WW-IZu" id="fN1-3J-9Vk"/>
+                        <outlet property="pageController" destination="Gfb-2n-fnv" id="Op5-AT-DnN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="70"/>
+            <point key="canvasLocation" x="-101.44927536231884" y="32.8125"/>
         </scene>
     </scenes>
     <resources>
+        <image name="apple" width="17" height="21"/>
+        <image name="kakao2" width="28" height="26"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
