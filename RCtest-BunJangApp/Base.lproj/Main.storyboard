@@ -89,6 +89,9 @@
                                 <state key="normal" title="다른 방법으로 로그인">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="diffLoginClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MkI-Z4-2h4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -123,7 +126,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-101.44927536231884" y="32.8125"/>
+            <point key="canvasLocation" x="-101" y="-85"/>
+        </scene>
+        <!--Different Login View Controller-->
+        <scene sceneID="j8P-KE-ivf">
+            <objects>
+                <viewController storyboardIdentifier="DifferentLoginViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jyq-FJ-7XB" customClass="DifferentLoginViewController" customModule="RCtest_BunJangApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Wa-mW-HVl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r0K-XX-sGL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TgW-Ai-IeW">
+                                <rect key="frame" x="0.0" y="546" width="414" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="다른 방법으로 로그인" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R7O-rk-CcN">
+                                        <rect key="frame" x="20" y="50" width="142" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="R7O-rk-CcN" firstAttribute="leading" secondItem="TgW-Ai-IeW" secondAttribute="leading" constant="20" id="0Qh-jP-Xku"/>
+                                    <constraint firstAttribute="height" constant="350" id="RPq-nd-ZhW"/>
+                                    <constraint firstItem="R7O-rk-CcN" firstAttribute="top" secondItem="TgW-Ai-IeW" secondAttribute="top" constant="50" id="Tfr-5u-eEP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iqp-sY-eE9"/>
+                        <constraints>
+                            <constraint firstItem="r0K-XX-sGL" firstAttribute="top" secondItem="6Wa-mW-HVl" secondAttribute="top" id="83w-H7-zBH"/>
+                            <constraint firstAttribute="bottom" secondItem="r0K-XX-sGL" secondAttribute="bottom" id="LH7-H5-h5L"/>
+                            <constraint firstAttribute="bottom" secondItem="TgW-Ai-IeW" secondAttribute="bottom" id="SKE-i3-5Zo"/>
+                            <constraint firstItem="TgW-Ai-IeW" firstAttribute="leading" secondItem="iqp-sY-eE9" secondAttribute="leading" id="Uic-TS-JNk"/>
+                            <constraint firstItem="iqp-sY-eE9" firstAttribute="trailing" secondItem="r0K-XX-sGL" secondAttribute="trailing" id="Uue-zb-hc7"/>
+                            <constraint firstItem="r0K-XX-sGL" firstAttribute="leading" secondItem="iqp-sY-eE9" secondAttribute="leading" id="n8u-lv-DV3"/>
+                            <constraint firstItem="TgW-Ai-IeW" firstAttribute="trailing" secondItem="iqp-sY-eE9" secondAttribute="trailing" id="nPC-pJ-278"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="7AP-HP-fPJ"/>
+                    <connections>
+                        <outlet property="SuperView" destination="6Wa-mW-HVl" id="KvJ-JA-vDN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Axg-2g-W53" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101.44927536231884" y="563.83928571428567"/>
         </scene>
     </scenes>
     <resources>

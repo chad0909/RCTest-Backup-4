@@ -21,6 +21,7 @@
 		E54CE81128831EBF00537C09 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81028831EBF00537C09 /* Color.swift */; };
 		E54CE8172883289900537C09 /* Cafe24Ohsquare.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E54CE8162883289900537C09 /* Cafe24Ohsquare.ttf */; };
 		E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81828832EE600537C09 /* LoginCollectionViewCell.swift */; };
+		E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		E54CE81028831EBF00537C09 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		E54CE8162883289900537C09 /* Cafe24Ohsquare.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cafe24Ohsquare.ttf; path = "../../../../번개장터/로그인화면/Cafe24Ohsquare/Cafe24Ohsquare.ttf"; sourceTree = "<group>"; };
 		E54CE81828832EE600537C09 /* LoginCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCollectionViewCell.swift; sourceTree = "<group>"; };
+		E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				E54CE80B2883199E00537C09 /* LoginViewController.swift */,
+				E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */,
 				E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
+				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
 				E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */,
 				E54CE7CC28827E1500537C09 /* SceneDelegate.swift in Sources */,
 				E54CE81128831EBF00537C09 /* Color.swift in Sources */,

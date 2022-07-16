@@ -14,7 +14,12 @@ class LoginViewController: BaseViewController {
     @IBOutlet weak var kakaoLogin: UIButton!
     @IBOutlet weak var appleLogin: UIButton!
     @IBOutlet weak var diffLogin: UIButton!
-    
+    @IBAction func diffLoginClick(_ sender: Any) {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "DifferentLoginViewController") as! DifferentLoginViewController
+        vc.modalPresentationStyle = .overCurrentContext
+        self.present(vc, animated: false)
+    }
     
     var nowPage: Int = 0
     let dataArray: Array<UIImage> = [UIImage(named: "login1")!, UIImage(named: "login2")!, UIImage(named: "login3")!, UIImage(named: "login4")!]
