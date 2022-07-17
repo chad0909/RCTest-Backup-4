@@ -10,10 +10,19 @@ import UIKit
 class RegisterCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var deleteButton: UIImageView!
+    @IBOutlet weak var editButton: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        UIUpadate()
     }
-
+    
+    func UIUpadate(){
+        
+    editButton.layer.cornerRadius = 2
+    editButton.layer.borderWidth = 0
+    editButton.layer.borderColor = UIColor.lightGray.cgColor
+    
+    }
 }
