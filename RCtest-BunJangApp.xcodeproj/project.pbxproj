@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E520426528844E4C00B4F830 /* RegisterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520426328844E4C00B4F830 /* RegisterCollectionViewCell.swift */; };
+		E520426628844E4C00B4F830 /* RegisterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E520426428844E4C00B4F830 /* RegisterCollectionViewCell.xib */; };
 		E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE7C928827E1500537C09 /* AppDelegate.swift */; };
 		E54CE7CC28827E1500537C09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE7CB28827E1500537C09 /* SceneDelegate.swift */; };
 		E54CE7D128827E1500537C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54CE7CF28827E1500537C09 /* Main.storyboard */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E520426328844E4C00B4F830 /* RegisterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCollectionViewCell.swift; sourceTree = "<group>"; };
+		E520426428844E4C00B4F830 /* RegisterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterCollectionViewCell.xib; sourceTree = "<group>"; };
 		E54CE7C628827E1500537C09 /* RCtest-BunJangApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RCtest-BunJangApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54CE7C928827E1500537C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E54CE7CB28827E1500537C09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -274,6 +278,8 @@
 				E54CE81828832EE600537C09 /* LoginCollectionViewCell.swift */,
 				E5FDBAFC2883FC08003746F7 /* ChatTableViewCell.swift */,
 				E5FDBAFD2883FC08003746F7 /* ChatTableViewCell.xib */,
+				E520426328844E4C00B4F830 /* RegisterCollectionViewCell.swift */,
+				E520426428844E4C00B4F830 /* RegisterCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -393,6 +399,7 @@
 				E54CE7D928827E1500537C09 /* LaunchScreen.storyboard in Resources */,
 				E54CE8172883289900537C09 /* Cafe24Ohsquare.ttf in Resources */,
 				E5FDBAFF2883FC08003746F7 /* ChatTableViewCell.xib in Resources */,
+				E520426628844E4C00B4F830 /* RegisterCollectionViewCell.xib in Resources */,
 				E54CE7D628827E1500537C09 /* Assets.xcassets in Resources */,
 				E54CE7D128827E1500537C09 /* Main.storyboard in Resources */,
 			);
@@ -424,6 +431,7 @@
 				E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */,
 				E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */,
 				E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */,
+				E520426528844E4C00B4F830 /* RegisterCollectionViewCell.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
 				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
 				E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */,

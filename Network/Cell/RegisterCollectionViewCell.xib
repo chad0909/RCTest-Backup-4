@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="registerCell" reuseIdentifier="registerCell" id="gTV-IL-0wX" customClass="RegisterCollectionViewCell" customModule="RCtest_BunJangApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="184" height="179"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="184" height="179"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ic-p6-KHA">
+                        <rect key="frame" x="0.0" y="0.0" width="184" height="179"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jK6-Sr-UZD">
+                                <rect key="frame" x="0.0" y="2" width="184" height="174.5"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jK6-Sr-UZD" firstAttribute="top" secondItem="7Ic-p6-KHA" secondAttribute="top" id="BOp-Yh-4wC"/>
+                            <constraint firstAttribute="bottom" secondItem="jK6-Sr-UZD" secondAttribute="bottom" id="czS-EB-kw4"/>
+                            <constraint firstItem="jK6-Sr-UZD" firstAttribute="leading" secondItem="7Ic-p6-KHA" secondAttribute="leading" id="e0s-jZ-kX4"/>
+                            <constraint firstAttribute="trailing" secondItem="jK6-Sr-UZD" secondAttribute="trailing" id="mlW-Tf-F1U"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="7Ic-p6-KHA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="7g9-C9-syt"/>
+                <constraint firstItem="7Ic-p6-KHA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="85X-DH-8bc"/>
+                <constraint firstAttribute="trailing" secondItem="7Ic-p6-KHA" secondAttribute="trailing" id="A8F-dL-zNl"/>
+                <constraint firstAttribute="bottom" secondItem="7Ic-p6-KHA" secondAttribute="bottom" id="hVR-ih-4rl"/>
+            </constraints>
+            <size key="customSize" width="184" height="179"/>
+            <connections>
+                <outlet property="imgView" destination="jK6-Sr-UZD" id="idp-hZ-xN1"/>
+            </connections>
+            <point key="canvasLocation" x="-205.79710144927537" y="146.31696428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
