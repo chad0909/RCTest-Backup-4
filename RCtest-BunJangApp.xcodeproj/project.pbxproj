@@ -26,6 +26,9 @@
 		E54CE8212883524500537C09 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE8202883524500537C09 /* SearchViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
+		E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */; };
+		E5FDBAFE2883FC08003746F7 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAFC2883FC08003746F7 /* ChatTableViewCell.swift */; };
+		E5FDBAFF2883FC08003746F7 /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5FDBAFD2883FC08003746F7 /* ChatTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		E54CE8202883524500537C09 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E5FDBAFC2883FC08003746F7 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		E5FDBAFD2883FC08003746F7 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +212,7 @@
 				E54CE8202883524500537C09 /* SearchViewController.swift */,
 				E5FDBAF02883E480003746F7 /* TabbarViewController.swift */,
 				E5FDBAF62883F031003746F7 /* RegisterViewController.swift */,
+				E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,6 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				E54CE81828832EE600537C09 /* LoginCollectionViewCell.swift */,
+				E5FDBAFC2883FC08003746F7 /* ChatTableViewCell.swift */,
+				E5FDBAFD2883FC08003746F7 /* ChatTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -383,6 +392,7 @@
 			files = (
 				E54CE7D928827E1500537C09 /* LaunchScreen.storyboard in Resources */,
 				E54CE8172883289900537C09 /* Cafe24Ohsquare.ttf in Resources */,
+				E5FDBAFF2883FC08003746F7 /* ChatTableViewCell.xib in Resources */,
 				E54CE7D628827E1500537C09 /* Assets.xcassets in Resources */,
 				E54CE7D128827E1500537C09 /* Main.storyboard in Resources */,
 			);
@@ -418,7 +428,9 @@
 				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
 				E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */,
 				E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */,
+				E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */,
 				E54CE7CC28827E1500537C09 /* SceneDelegate.swift in Sources */,
+				E5FDBAFE2883FC08003746F7 /* ChatTableViewCell.swift in Sources */,
 				E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */,
 				E54CE81128831EBF00537C09 /* Color.swift in Sources */,
 			);

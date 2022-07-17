@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="chatCell" rowHeight="61" id="KGk-i7-Jjw" customClass="ChatTableViewCell" customModule="RCtest_BunJangApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hfs-6I-Ebw">
+                        <rect key="frame" x="5" y="7" width="50" height="45.5"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Odw-hH-Jal"/>
+                            <constraint firstAttribute="width" constant="50" id="PfT-rq-W1V"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="최근 대화 내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9D-AV-khd">
+                        <rect key="frame" x="60" y="33" width="69" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가게 이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4A-Bc-Bfa">
+                        <rect key="frame" x="60" y="10" width="52.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="일자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rv3-DO-S7S">
+                        <rect key="frame" x="328" y="10" width="14" height="10"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="8"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chatSetting" translatesAutoresizingMaskIntoConstraints="NO" id="eHD-QB-cRi">
+                        <rect key="frame" x="347" y="10" width="20" height="86"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="5hC-od-34h"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HcL-9I-4Mg">
+                        <rect key="frame" x="117.5" y="10" width="15" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="KJv-8c-k6p"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="hfs-6I-Ebw" secondAttribute="bottom" constant="5" id="0Rq-3d-eBB"/>
+                    <constraint firstItem="rv3-DO-S7S" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="19E-6h-dT5"/>
+                    <constraint firstItem="HcL-9I-4Mg" firstAttribute="leading" secondItem="m4A-Bc-Bfa" secondAttribute="trailing" constant="5" id="4VV-ap-bJl"/>
+                    <constraint firstItem="Y9D-AV-khd" firstAttribute="top" secondItem="HcL-9I-4Mg" secondAttribute="bottom" constant="13" id="4to-5k-Se6"/>
+                    <constraint firstItem="eHD-QB-cRi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="59Q-oC-1eQ"/>
+                    <constraint firstAttribute="trailing" secondItem="eHD-QB-cRi" secondAttribute="trailing" constant="5" id="5Rd-dg-RG2"/>
+                    <constraint firstItem="eHD-QB-cRi" firstAttribute="leading" secondItem="rv3-DO-S7S" secondAttribute="trailing" constant="5" id="EvP-95-9sN"/>
+                    <constraint firstItem="HcL-9I-4Mg" firstAttribute="centerY" secondItem="rv3-DO-S7S" secondAttribute="centerY" id="IeZ-LW-0q5"/>
+                    <constraint firstItem="m4A-Bc-Bfa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="O8k-5V-MfB"/>
+                    <constraint firstItem="Y9D-AV-khd" firstAttribute="leading" secondItem="hfs-6I-Ebw" secondAttribute="trailing" constant="5" id="Q3h-oE-hXI"/>
+                    <constraint firstAttribute="bottom" secondItem="eHD-QB-cRi" secondAttribute="bottom" constant="10" id="TWX-gt-bou"/>
+                    <constraint firstItem="hfs-6I-Ebw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="azI-pX-46D"/>
+                    <constraint firstItem="hfs-6I-Ebw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="bGf-Se-1st"/>
+                    <constraint firstItem="HcL-9I-4Mg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="nJX-Yl-6qx"/>
+                    <constraint firstItem="m4A-Bc-Bfa" firstAttribute="leading" secondItem="hfs-6I-Ebw" secondAttribute="trailing" constant="5" id="s7v-nv-Z71"/>
+                    <constraint firstItem="Y9D-AV-khd" firstAttribute="top" secondItem="m4A-Bc-Bfa" secondAttribute="bottom" constant="5" id="te0-Xh-596"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="settingButton" destination="eHD-QB-cRi" id="wyW-1z-Jol"/>
+            </connections>
+            <point key="canvasLocation" x="115.94202898550725" y="104.79910714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chatSetting" width="56" height="86"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+    </resources>
+</document>

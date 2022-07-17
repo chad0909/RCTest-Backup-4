@@ -12,14 +12,10 @@ class TabbarViewController: UITabBarController {
     @IBOutlet weak var UITabBarCustom: UITabBar!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
+
         UITabBar.appearance().unselectedItemTintColor = UIColor.lightGray
         UITabBar.appearance().tintColor = UIColor.black
-        
-        
-        
+ 
     }
     
     
