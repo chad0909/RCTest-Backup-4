@@ -22,6 +22,10 @@
 		E54CE8172883289900537C09 /* Cafe24Ohsquare.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E54CE8162883289900537C09 /* Cafe24Ohsquare.ttf */; };
 		E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81828832EE600537C09 /* LoginCollectionViewCell.swift */; };
 		E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */; };
+		E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81E28834F6F00537C09 /* HomeViewController.swift */; };
+		E54CE8212883524500537C09 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE8202883524500537C09 /* SearchViewController.swift */; };
+		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
+		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		E54CE8162883289900537C09 /* Cafe24Ohsquare.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cafe24Ohsquare.ttf; path = "../../../../번개장터/로그인화면/Cafe24Ohsquare/Cafe24Ohsquare.ttf"; sourceTree = "<group>"; };
 		E54CE81828832EE600537C09 /* LoginCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCollectionViewCell.swift; sourceTree = "<group>"; };
 		E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentLoginViewController.swift; sourceTree = "<group>"; };
+		E54CE81E28834F6F00537C09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E54CE8202883524500537C09 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +202,10 @@
 			children = (
 				E54CE80B2883199E00537C09 /* LoginViewController.swift */,
 				E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */,
+				E54CE81E28834F6F00537C09 /* HomeViewController.swift */,
+				E54CE8202883524500537C09 /* SearchViewController.swift */,
+				E5FDBAF02883E480003746F7 /* TabbarViewController.swift */,
+				E5FDBAF62883F031003746F7 /* RegisterViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -397,13 +409,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54CE8212883524500537C09 /* SearchViewController.swift in Sources */,
 				E54CE80C2883199E00537C09 /* LoginViewController.swift in Sources */,
+				E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */,
 				E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */,
 				E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
 				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
+				E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */,
 				E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */,
 				E54CE7CC28827E1500537C09 /* SceneDelegate.swift in Sources */,
+				E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */,
 				E54CE81128831EBF00537C09 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
