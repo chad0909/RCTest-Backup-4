@@ -21,8 +21,4 @@ class HomeViewController: UIViewController {
 //        homeButton.contentHorizontalAlignment = .fill
 //        homeButton.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     }
-    
-
-
-
 }

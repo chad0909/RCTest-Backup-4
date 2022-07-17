@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61E74F902C11D92BC48C34DF /* Pods_RCtest_BunJangAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCC176D95F23E5052445621 /* Pods_RCtest_BunJangAppTests.framework */; };
+		707B9437CA0646A776BF8505 /* Pods_RCtest_BunJangApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F287E6B2ED2808D8E719EB33 /* Pods_RCtest_BunJangApp.framework */; };
+		B559EAE41537BF09BA882606 /* Pods_RCtest_BunJangApp_RCtest_BunJangAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBDCCE0CA082E49BB50ABAF /* Pods_RCtest_BunJangApp_RCtest_BunJangAppUITests.framework */; };
 		E520426528844E4C00B4F830 /* RegisterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520426328844E4C00B4F830 /* RegisterCollectionViewCell.swift */; };
 		E520426628844E4C00B4F830 /* RegisterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E520426428844E4C00B4F830 /* RegisterCollectionViewCell.xib */; };
 		E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE7C928827E1500537C09 /* AppDelegate.swift */; };
@@ -51,6 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EBDCCE0CA082E49BB50ABAF /* Pods_RCtest_BunJangApp_RCtest_BunJangAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCtest_BunJangApp_RCtest_BunJangAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCC176D95F23E5052445621 /* Pods_RCtest_BunJangAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCtest_BunJangAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C33F38CEDCA93AB0D4952D3 /* Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F288B902316DCE6AB6C5E67 /* Pods-RCtest-BunJangAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCtest-BunJangAppTests.debug.xcconfig"; path = "Target Support Files/Pods-RCtest-BunJangAppTests/Pods-RCtest-BunJangAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D816A76B16D80DD8CC45AF /* Pods-RCtest-BunJangApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCtest-BunJangApp.release.xcconfig"; path = "Target Support Files/Pods-RCtest-BunJangApp/Pods-RCtest-BunJangApp.release.xcconfig"; sourceTree = "<group>"; };
 		E520426328844E4C00B4F830 /* RegisterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCollectionViewCell.swift; sourceTree = "<group>"; };
 		E520426428844E4C00B4F830 /* RegisterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterCollectionViewCell.xib; sourceTree = "<group>"; };
 		E54CE7C628827E1500537C09 /* RCtest-BunJangApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RCtest-BunJangApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +87,10 @@
 		E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E5FDBAFC2883FC08003746F7 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		E5FDBAFD2883FC08003746F7 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		E6543DB39C1B7D7C04C66896 /* Pods-RCtest-BunJangApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCtest-BunJangApp.debug.xcconfig"; path = "Target Support Files/Pods-RCtest-BunJangApp/Pods-RCtest-BunJangApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F287E6B2ED2808D8E719EB33 /* Pods_RCtest_BunJangApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCtest_BunJangApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6FFA86396D1EB9D1EFC1EF /* Pods-RCtest-BunJangAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCtest-BunJangAppTests.release.xcconfig"; path = "Target Support Files/Pods-RCtest-BunJangAppTests/Pods-RCtest-BunJangAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFFE449B3774B17B1E2BC5A7 /* Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.release.xcconfig"; path = "Target Support Files/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707B9437CA0646A776BF8505 /* Pods_RCtest_BunJangApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E74F902C11D92BC48C34DF /* Pods_RCtest_BunJangAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,12 +114,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B559EAE41537BF09BA882606 /* Pods_RCtest_BunJangApp_RCtest_BunJangAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B59D172008CE979D6A2BE88E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F287E6B2ED2808D8E719EB33 /* Pods_RCtest_BunJangApp.framework */,
+				1EBDCCE0CA082E49BB50ABAF /* Pods_RCtest_BunJangApp_RCtest_BunJangAppUITests.framework */,
+				5DCC176D95F23E5052445621 /* Pods_RCtest_BunJangAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28B7F2D7709A55D12CB3D4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6543DB39C1B7D7C04C66896 /* Pods-RCtest-BunJangApp.debug.xcconfig */,
+				A5D816A76B16D80DD8CC45AF /* Pods-RCtest-BunJangApp.release.xcconfig */,
+				8C33F38CEDCA93AB0D4952D3 /* Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.debug.xcconfig */,
+				FFFE449B3774B17B1E2BC5A7 /* Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.release.xcconfig */,
+				8F288B902316DCE6AB6C5E67 /* Pods-RCtest-BunJangAppTests.debug.xcconfig */,
+				FE6FFA86396D1EB9D1EFC1EF /* Pods-RCtest-BunJangAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E54CE7BD28827E1500537C09 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +155,8 @@
 				E54CE7E228827E1600537C09 /* RCtest-BunJangAppTests */,
 				E54CE7EC28827E1600537C09 /* RCtest-BunJangAppUITests */,
 				E54CE7C728827E1500537C09 /* Products */,
+				D28B7F2D7709A55D12CB3D4F /* Pods */,
+				B59D172008CE979D6A2BE88E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -299,9 +340,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E54CE7F328827E1600537C09 /* Build configuration list for PBXNativeTarget "RCtest-BunJangApp" */;
 			buildPhases = (
+				140E72975B146F4AEA1E6125 /* [CP] Check Pods Manifest.lock */,
 				E54CE7C228827E1500537C09 /* Sources */,
 				E54CE7C328827E1500537C09 /* Frameworks */,
 				E54CE7C428827E1500537C09 /* Resources */,
+				AAF1B634F59EFD6772519739 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,6 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E54CE7F628827E1600537C09 /* Build configuration list for PBXNativeTarget "RCtest-BunJangAppTests" */;
 			buildPhases = (
+				A6E3EC67AC4752CF8411B6AF /* [CP] Check Pods Manifest.lock */,
 				E54CE7DB28827E1600537C09 /* Sources */,
 				E54CE7DC28827E1600537C09 /* Frameworks */,
 				E54CE7DD28827E1600537C09 /* Resources */,
@@ -334,9 +378,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E54CE7F928827E1600537C09 /* Build configuration list for PBXNativeTarget "RCtest-BunJangAppUITests" */;
 			buildPhases = (
+				CA0334E4E088455679F1B004 /* [CP] Check Pods Manifest.lock */,
 				E54CE7E528827E1600537C09 /* Sources */,
 				E54CE7E628827E1600537C09 /* Frameworks */,
 				E54CE7E728827E1600537C09 /* Resources */,
+				C3FB01175E98E5C8D154F6F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -420,6 +466,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		140E72975B146F4AEA1E6125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCtest-BunJangApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E3EC67AC4752CF8411B6AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCtest-BunJangAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF1B634F59EFD6772519739 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCtest-BunJangApp/Pods-RCtest-BunJangApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCtest-BunJangApp/Pods-RCtest-BunJangApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCtest-BunJangApp/Pods-RCtest-BunJangApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FB01175E98E5C8D154F6F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0334E4E088455679F1B004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E54CE7C228827E1500537C09 /* Sources */ = {
@@ -612,6 +761,7 @@
 		};
 		E54CE7F428827E1600537C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6543DB39C1B7D7C04C66896 /* Pods-RCtest-BunJangApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -642,6 +792,7 @@
 		};
 		E54CE7F528827E1600537C09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D816A76B16D80DD8CC45AF /* Pods-RCtest-BunJangApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -672,6 +823,7 @@
 		};
 		E54CE7F728827E1600537C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F288B902316DCE6AB6C5E67 /* Pods-RCtest-BunJangAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -692,6 +844,7 @@
 		};
 		E54CE7F828827E1600537C09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE6FFA86396D1EB9D1EFC1EF /* Pods-RCtest-BunJangAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -712,6 +865,7 @@
 		};
 		E54CE7FA28827E1600537C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C33F38CEDCA93AB0D4952D3 /* Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -730,6 +884,7 @@
 		};
 		E54CE7FB28827E1600537C09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFE449B3774B17B1E2BC5A7 /* Pods-RCtest-BunJangApp-RCtest-BunJangAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
