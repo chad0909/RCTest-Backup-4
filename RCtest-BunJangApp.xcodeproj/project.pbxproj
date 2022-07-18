@@ -31,6 +31,9 @@
 		E54CE8212883524500537C09 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE8202883524500537C09 /* SearchViewController.swift */; };
 		E589B95C2885483600B0490A /* HomeCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B95A2885483600B0490A /* HomeCategoryCollectionViewCell.swift */; };
 		E589B95D2885483600B0490A /* HomeCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E589B95B2885483600B0490A /* HomeCategoryCollectionViewCell.xib */; };
+		E589B95F28856A8300B0490A /* DiffLoginInputDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B95E28856A8300B0490A /* DiffLoginInputDataViewController.swift */; };
+		E589B96128858CB600B0490A /* DifferentLoginDataPOST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B96028858CB600B0490A /* DifferentLoginDataPOST.swift */; };
+		E589B96328858D3A00B0490A /* DifferentLoginDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B96228858D3A00B0490A /* DifferentLoginDataResponse.swift */; };
 		E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58AC3BD28847B3000D5816F /* MyPageViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
@@ -87,6 +90,9 @@
 		E54CE8202883524500537C09 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E589B95A2885483600B0490A /* HomeCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		E589B95B2885483600B0490A /* HomeCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		E589B95E28856A8300B0490A /* DiffLoginInputDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffLoginInputDataViewController.swift; sourceTree = "<group>"; };
+		E589B96028858CB600B0490A /* DifferentLoginDataPOST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentLoginDataPOST.swift; sourceTree = "<group>"; };
+		E589B96228858D3A00B0490A /* DifferentLoginDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentLoginDataResponse.swift; sourceTree = "<group>"; };
 		E58AC3BD28847B3000D5816F /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -264,6 +270,7 @@
 				E5FDBAF62883F031003746F7 /* RegisterViewController.swift */,
 				E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */,
 				E58AC3BD28847B3000D5816F /* MyPageViewController.swift */,
+				E589B95E28856A8300B0490A /* DiffLoginInputDataViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +285,8 @@
 		E54CE803288314AF00537C09 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				E589B96028858CB600B0490A /* DifferentLoginDataPOST.swift */,
+				E589B96228858D3A00B0490A /* DifferentLoginDataResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -592,12 +601,15 @@
 				E589B95C2885483600B0490A /* HomeCategoryCollectionViewCell.swift in Sources */,
 				E520426528844E4C00B4F830 /* RegisterCollectionViewCell.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
+				E589B95F28856A8300B0490A /* DiffLoginInputDataViewController.swift in Sources */,
 				E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */,
 				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
 				E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */,
 				E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */,
+				E589B96128858CB600B0490A /* DifferentLoginDataPOST.swift in Sources */,
 				E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */,
 				E54CE7CC28827E1500537C09 /* SceneDelegate.swift in Sources */,
+				E589B96328858D3A00B0490A /* DifferentLoginDataResponse.swift in Sources */,
 				E5FDBAFE2883FC08003746F7 /* ChatTableViewCell.swift in Sources */,
 				E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */,
 				E54CE81128831EBF00537C09 /* Color.swift in Sources */,
