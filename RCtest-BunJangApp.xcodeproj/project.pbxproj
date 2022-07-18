@@ -29,6 +29,8 @@
 		E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */; };
 		E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81E28834F6F00537C09 /* HomeViewController.swift */; };
 		E54CE8212883524500537C09 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE8202883524500537C09 /* SearchViewController.swift */; };
+		E589B95C2885483600B0490A /* HomeCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B95A2885483600B0490A /* HomeCategoryCollectionViewCell.swift */; };
+		E589B95D2885483600B0490A /* HomeCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E589B95B2885483600B0490A /* HomeCategoryCollectionViewCell.xib */; };
 		E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58AC3BD28847B3000D5816F /* MyPageViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
@@ -83,6 +85,8 @@
 		E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentLoginViewController.swift; sourceTree = "<group>"; };
 		E54CE81E28834F6F00537C09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E54CE8202883524500537C09 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E589B95A2885483600B0490A /* HomeCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E589B95B2885483600B0490A /* HomeCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		E58AC3BD28847B3000D5816F /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -323,6 +327,8 @@
 				E5FDBAFD2883FC08003746F7 /* ChatTableViewCell.xib */,
 				E520426328844E4C00B4F830 /* RegisterCollectionViewCell.swift */,
 				E520426428844E4C00B4F830 /* RegisterCollectionViewCell.xib */,
+				E589B95A2885483600B0490A /* HomeCategoryCollectionViewCell.swift */,
+				E589B95B2885483600B0490A /* HomeCategoryCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -445,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E54CE7D928827E1500537C09 /* LaunchScreen.storyboard in Resources */,
+				E589B95D2885483600B0490A /* HomeCategoryCollectionViewCell.xib in Resources */,
 				E54CE8172883289900537C09 /* Cafe24Ohsquare.ttf in Resources */,
 				E5FDBAFF2883FC08003746F7 /* ChatTableViewCell.xib in Resources */,
 				E520426628844E4C00B4F830 /* RegisterCollectionViewCell.xib in Resources */,
@@ -582,6 +589,7 @@
 				E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */,
 				E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */,
 				E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */,
+				E589B95C2885483600B0490A /* HomeCategoryCollectionViewCell.swift in Sources */,
 				E520426528844E4C00B4F830 /* RegisterCollectionViewCell.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
 				E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */,
