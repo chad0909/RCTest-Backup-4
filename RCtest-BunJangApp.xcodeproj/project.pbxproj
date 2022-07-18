@@ -38,6 +38,7 @@
 		E589B9792885D4D300B0490A /* AllMenuCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B9782885D4D300B0490A /* AllMenuCategoryViewController.swift */; };
 		E589B97B2885D4E200B0490A /* AllMenuBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B97A2885D4E200B0490A /* AllMenuBrandViewController.swift */; };
 		E589B97D2885D4EC00B0490A /* AllMenuServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B97C2885D4EC00B0490A /* AllMenuServiceViewController.swift */; };
+		E589B97F2885EAFD00B0490A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B97E2885EAFD00B0490A /* SettingViewController.swift */; };
 		E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58AC3BD28847B3000D5816F /* MyPageViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
@@ -101,6 +102,7 @@
 		E589B9782885D4D300B0490A /* AllMenuCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMenuCategoryViewController.swift; sourceTree = "<group>"; };
 		E589B97A2885D4E200B0490A /* AllMenuBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMenuBrandViewController.swift; sourceTree = "<group>"; };
 		E589B97C2885D4EC00B0490A /* AllMenuServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMenuServiceViewController.swift; sourceTree = "<group>"; };
+		E589B97E2885EAFD00B0490A /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		E58AC3BD28847B3000D5816F /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				E589B9782885D4D300B0490A /* AllMenuCategoryViewController.swift */,
 				E589B97A2885D4E200B0490A /* AllMenuBrandViewController.swift */,
 				E589B97C2885D4EC00B0490A /* AllMenuServiceViewController.swift */,
+				E589B97E2885EAFD00B0490A /* SettingViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 				E589B97D2885D4EC00B0490A /* AllMenuServiceViewController.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
 				E589B95F28856A8300B0490A /* DiffLoginInputDataViewController.swift in Sources */,
+				E589B97F2885EAFD00B0490A /* SettingViewController.swift in Sources */,
 				E589B9792885D4D300B0490A /* AllMenuCategoryViewController.swift in Sources */,
 				E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */,
 				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
