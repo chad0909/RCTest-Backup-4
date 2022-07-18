@@ -13,15 +13,18 @@ class DiffLoginInputDataViewController: UIViewController {
     
     @IBOutlet weak var requestLabel: UILabel!
     @IBOutlet weak var OKButton: UIButton!
-    
     @IBOutlet weak var tpNumberTextField: UITextField!
-    
     @IBOutlet weak var broadcastLabel: UILabel!
     @IBOutlet weak var birthdayTextField: UITextField!
-    
     @IBOutlet weak var genderTextField: UITextField!
-    
     @IBOutlet weak var nameTextField: UITextField!
+
+    
+    
+    @IBOutlet weak var birthView: UIView!
+    @IBOutlet weak var broadcastView: UIView!
+    @IBOutlet weak var tpNumberView: UIView!
+    @IBOutlet weak var nameView: UIView!
     
     
     @IBAction func tapGoHome(_ sender: Any) {
@@ -33,20 +36,44 @@ class DiffLoginInputDataViewController: UIViewController {
                      let tpNumber = tpNumberTextField.text else {
                    return
                }
-
         print(nameText)
         print(tpNumber)
-        
+//        getDataAnimation()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         UIUpdate()
-
+//        getDataAnimation()
         
-    }
-    
+        }
+// 시간 남으면 해보기.
+//    func getDataAnimation(){
+//        let nameText = nameTextField.text
+//        let birthText = birthdayTextField.text
+//        let genderText = genderTextField.text
+//        let broadcastText = broadcastLabel.text
+//        let tpNumberText = tpNumberTextField.text
+//
+//        if nameText == "" && birthText == "" && genderText == "" && broadcastText == "" && tpNumberText == ""{
+//            birthView.isHidden = true
+//            broadcastView.isHidden = true
+//            tpNumberView.isHidden = true
+//            print("hello")
+//            NSLayoutConstraint.activate([
+//                nameView.topAnchor.constraint(equalTo: requestLabel.bottomAnchor)
+//            ])
+//        } else if birthText == "" && genderText == "" && broadcastText == "" && tpNumberText == ""{
+//            print("qweqweqweqwe")
+//            birthView.isHidden = false
+//            birthView.backgroundColor = .blue
+//            NSLayoutConstraint.activate([
+//                birthView.topAnchor.constraint(equalTo: requestLabel.bottomAnchor)
+//                nameView.topAnchor.constraint(equalTo: birthView.bottomAnchor)
+//            ])
+//        }
+//    }
 
     func UIUpdate(){
         OKButton.layer.cornerRadius = 10

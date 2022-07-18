@@ -34,6 +34,10 @@
 		E589B95F28856A8300B0490A /* DiffLoginInputDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B95E28856A8300B0490A /* DiffLoginInputDataViewController.swift */; };
 		E589B96128858CB600B0490A /* DifferentLoginDataPOST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B96028858CB600B0490A /* DifferentLoginDataPOST.swift */; };
 		E589B96328858D3A00B0490A /* DifferentLoginDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B96228858D3A00B0490A /* DifferentLoginDataResponse.swift */; };
+		E589B9772885D25A00B0490A /* AllMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B9762885D25A00B0490A /* AllMenuViewController.swift */; };
+		E589B9792885D4D300B0490A /* AllMenuCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B9782885D4D300B0490A /* AllMenuCategoryViewController.swift */; };
+		E589B97B2885D4E200B0490A /* AllMenuBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B97A2885D4E200B0490A /* AllMenuBrandViewController.swift */; };
+		E589B97D2885D4EC00B0490A /* AllMenuServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B97C2885D4EC00B0490A /* AllMenuServiceViewController.swift */; };
 		E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58AC3BD28847B3000D5816F /* MyPageViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
@@ -93,6 +97,10 @@
 		E589B95E28856A8300B0490A /* DiffLoginInputDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffLoginInputDataViewController.swift; sourceTree = "<group>"; };
 		E589B96028858CB600B0490A /* DifferentLoginDataPOST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentLoginDataPOST.swift; sourceTree = "<group>"; };
 		E589B96228858D3A00B0490A /* DifferentLoginDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentLoginDataResponse.swift; sourceTree = "<group>"; };
+		E589B9762885D25A00B0490A /* AllMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMenuViewController.swift; sourceTree = "<group>"; };
+		E589B9782885D4D300B0490A /* AllMenuCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMenuCategoryViewController.swift; sourceTree = "<group>"; };
+		E589B97A2885D4E200B0490A /* AllMenuBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMenuBrandViewController.swift; sourceTree = "<group>"; };
+		E589B97C2885D4EC00B0490A /* AllMenuServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMenuServiceViewController.swift; sourceTree = "<group>"; };
 		E58AC3BD28847B3000D5816F /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -271,6 +279,10 @@
 				E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */,
 				E58AC3BD28847B3000D5816F /* MyPageViewController.swift */,
 				E589B95E28856A8300B0490A /* DiffLoginInputDataViewController.swift */,
+				E589B9762885D25A00B0490A /* AllMenuViewController.swift */,
+				E589B9782885D4D300B0490A /* AllMenuCategoryViewController.swift */,
+				E589B97A2885D4E200B0490A /* AllMenuBrandViewController.swift */,
+				E589B97C2885D4EC00B0490A /* AllMenuServiceViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -600,8 +612,10 @@
 				E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */,
 				E589B95C2885483600B0490A /* HomeCategoryCollectionViewCell.swift in Sources */,
 				E520426528844E4C00B4F830 /* RegisterCollectionViewCell.swift in Sources */,
+				E589B97D2885D4EC00B0490A /* AllMenuServiceViewController.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
 				E589B95F28856A8300B0490A /* DiffLoginInputDataViewController.swift in Sources */,
+				E589B9792885D4D300B0490A /* AllMenuCategoryViewController.swift in Sources */,
 				E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */,
 				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
 				E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */,
@@ -610,7 +624,9 @@
 				E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */,
 				E54CE7CC28827E1500537C09 /* SceneDelegate.swift in Sources */,
 				E589B96328858D3A00B0490A /* DifferentLoginDataResponse.swift in Sources */,
+				E589B9772885D25A00B0490A /* AllMenuViewController.swift in Sources */,
 				E5FDBAFE2883FC08003746F7 /* ChatTableViewCell.swift in Sources */,
+				E589B97B2885D4E200B0490A /* AllMenuBrandViewController.swift in Sources */,
 				E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */,
 				E54CE81128831EBF00537C09 /* Color.swift in Sources */,
 			);
