@@ -28,7 +28,7 @@ class DiffLoginInputDataViewController: UIViewController {
     
     
     @IBAction func tapGoHome(_ sender: Any) {
-        dismiss(animated: true)
+        self.view.window!.rootViewController?.dismiss(animated: true, completion: nil)
     }
     @IBAction func tapConfirm(_ sender: Any) {
         // 각각의 텍스트 필드에 담겨 있던 값을 저장

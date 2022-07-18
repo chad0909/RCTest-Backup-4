@@ -1821,7 +1821,7 @@
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="e4J-g4-2rc">
                     <connections>
-                        <segue destination="yeX-SL-dhT" kind="show" id="X6X-UX-dSX"/>
+                        <segue destination="yeX-SL-dhT" kind="showDetail" id="X6X-UX-dSX"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -2315,6 +2315,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHh-yA-5yO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3864" y="1090"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VFB-QM-6zk">
+            <objects>
+                <viewController id="NZ8-MB-2XC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HZx-14-D5v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ebv-sS-9yU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UmN-7K-VdD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4938" y="651"/>
         </scene>
         <!--All Menu Brand View Controller-->
         <scene sceneID="qIZ-P7-MPh">
@@ -2838,7 +2853,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="n1D-of-N4U"/>
+        <segue reference="gbm-yG-MN9"/>
         <segue reference="2j9-CI-RDQ"/>
     </inferredMetricsTieBreakers>
     <resources>

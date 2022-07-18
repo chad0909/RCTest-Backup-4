@@ -12,7 +12,7 @@ import Pageboy
 class AllMenuViewController: TabmanViewController {
     
     @IBAction func pressX(_ sender: Any) {
-        dismiss(animated: true)
+        dismiss(animated: true, completion: nil)
     }
     
     // 상단 탭바 라이브러리 - TabMan 사용
