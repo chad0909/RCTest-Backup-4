@@ -1455,16 +1455,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PP5-xC-hFx">
-                                <rect key="frame" x="0.0" y="44" width="414" height="962"/>
+                                <rect key="frame" x="0.0" y="-50" width="414" height="1056"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DhZ-r7-DHR">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="810"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="860"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eTM-Aw-0LR">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="250" id="VO3-10-B1i"/>
+                                                    <constraint firstAttribute="height" constant="300" id="VO3-10-B1i"/>
                                                 </constraints>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Lja-YJ-Lkw">
                                                     <size key="itemSize" width="402" height="214"/>
@@ -1474,7 +1474,7 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeAdCollectionViewCell" id="j9O-W2-l9f" customClass="HomeAdCollectionViewCell" customModule="RCtest_BunJangApp" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="18" width="402" height="214"/>
+                                                        <rect key="frame" x="0.0" y="43" width="402" height="214"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="eQP-gK-KAL">
                                                             <rect key="frame" x="0.0" y="0.0" width="402" height="214"/>
@@ -1499,7 +1499,7 @@
                                                 </cells>
                                             </collectionView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vtD-eV-k1N">
-                                                <rect key="frame" x="0.0" y="250" width="414" height="200"/>
+                                                <rect key="frame" x="0.0" y="300" width="414" height="200"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="i80-zm-nuR"/>
@@ -1523,7 +1523,7 @@
                                                 </cells>
                                             </collectionView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puw-5s-QVH">
-                                                <rect key="frame" x="0.0" y="450" width="414" height="100"/>
+                                                <rect key="frame" x="0.0" y="500" width="414" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="r2n-zs-Pwf"/>
                                                 </constraints>
@@ -1532,14 +1532,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6c1-0W-eqn">
-                                                <rect key="frame" x="0.0" y="550" width="414" height="60"/>
+                                                <rect key="frame" x="0.0" y="600" width="414" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="Tgl-Pw-TLb"/>
                                                 </constraints>
                                             </view>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="S4U-hT-gyp">
-                                                <rect key="frame" x="0.0" y="610" width="414" height="200"/>
+                                                <rect key="frame" x="0.0" y="660" width="414" height="200"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="N4M-Ux-OIa"/>
@@ -1644,7 +1644,7 @@
                             <constraint firstItem="g9D-op-HDO" firstAttribute="trailing" secondItem="PP5-xC-hFx" secondAttribute="trailing" id="Axd-cC-hhR"/>
                             <constraint firstItem="0u6-4b-6LM" firstAttribute="top" secondItem="Iqg-x0-0Cz" secondAttribute="top" id="Gjw-qR-3ch"/>
                             <constraint firstItem="nPl-4Z-okY" firstAttribute="top" secondItem="g9D-op-HDO" secondAttribute="top" constant="15" id="JBl-pl-jh5"/>
-                            <constraint firstItem="PP5-xC-hFx" firstAttribute="top" secondItem="g9D-op-HDO" secondAttribute="top" id="USY-WD-Unp"/>
+                            <constraint firstItem="PP5-xC-hFx" firstAttribute="top" secondItem="Iqg-x0-0Cz" secondAttribute="top" constant="-50" id="USY-WD-Unp"/>
                             <constraint firstItem="g9D-op-HDO" firstAttribute="trailing" secondItem="ECH-D8-woL" secondAttribute="trailing" constant="10" id="dWX-DJ-TxB"/>
                             <constraint firstAttribute="bottom" secondItem="PP5-xC-hFx" secondAttribute="bottom" id="dyG-CI-j2y"/>
                             <constraint firstItem="afx-pI-dbp" firstAttribute="leading" secondItem="g9D-op-HDO" secondAttribute="leading" constant="15" id="q0y-Lh-IJQ"/>
