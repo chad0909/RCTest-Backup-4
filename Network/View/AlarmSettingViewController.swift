@@ -9,6 +9,9 @@ import UIKit
 
 class AlarmSettingViewController: UIViewController {
 
+    @IBAction func backButton(_ sender: Any) {
+        dismiss(animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

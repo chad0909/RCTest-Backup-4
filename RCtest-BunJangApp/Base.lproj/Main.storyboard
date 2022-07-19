@@ -3370,6 +3370,7 @@
                                         <state key="normal" image="backButtonNav"/>
                                         <connections>
                                             <action selector="backButton:" destination="NZ8-MB-2XC" eventType="touchUpInside" id="gIR-DU-cHF"/>
+                                            <action selector="backButton:" destination="EtK-a4-ZVk" eventType="touchUpInside" id="qV9-PA-Ttl"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="알림/부가서비스" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuG-R6-7dY">

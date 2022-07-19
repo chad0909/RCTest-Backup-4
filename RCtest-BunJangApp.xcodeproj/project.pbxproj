@@ -24,7 +24,6 @@
 		E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE809288318C000537C09 /* BaseViewController.swift */; };
 		E54CE80C2883199E00537C09 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE80B2883199E00537C09 /* LoginViewController.swift */; };
 		E54CE81128831EBF00537C09 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81028831EBF00537C09 /* Color.swift */; };
-		E54CE8172883289900537C09 /* Cafe24Ohsquare.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E54CE8162883289900537C09 /* Cafe24Ohsquare.ttf */; };
 		E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81828832EE600537C09 /* LoginCollectionViewCell.swift */; };
 		E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */; };
 		E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54CE81E28834F6F00537C09 /* HomeViewController.swift */; };
@@ -93,7 +92,6 @@
 		E54CE809288318C000537C09 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E54CE80B2883199E00537C09 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E54CE81028831EBF00537C09 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		E54CE8162883289900537C09 /* Cafe24Ohsquare.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cafe24Ohsquare.ttf; path = "../../../../번개장터/로그인화면/Cafe24Ohsquare/Cafe24Ohsquare.ttf"; sourceTree = "<group>"; };
 		E54CE81828832EE600537C09 /* LoginCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCollectionViewCell.swift; sourceTree = "<group>"; };
 		E54CE81C28833D6800537C09 /* DifferentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentLoginViewController.swift; sourceTree = "<group>"; };
 		E54CE81E28834F6F00537C09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -353,7 +351,6 @@
 		E54CE808288314F800537C09 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				E54CE8162883289900537C09 /* Cafe24Ohsquare.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -491,7 +488,6 @@
 			files = (
 				E54CE7D928827E1500537C09 /* LaunchScreen.storyboard in Resources */,
 				E589B95D2885483600B0490A /* HomeCategoryCollectionViewCell.xib in Resources */,
-				E54CE8172883289900537C09 /* Cafe24Ohsquare.ttf in Resources */,
 				E5FDBAFF2883FC08003746F7 /* ChatTableViewCell.xib in Resources */,
 				E520426628844E4C00B4F830 /* RegisterCollectionViewCell.xib in Resources */,
 				E54CE7D628827E1500537C09 /* Assets.xcassets in Resources */,
