@@ -12,6 +12,7 @@ class FollowingViewController: UIViewController {
         dismiss(animated: true)
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
