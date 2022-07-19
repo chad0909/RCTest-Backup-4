@@ -51,6 +51,9 @@
 		E5EA9BE128875AAA00197011 /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE028875AAA00197011 /* FollowerViewController.swift */; };
 		E5EA9BE328875AC300197011 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE228875AC300197011 /* FollowingViewController.swift */; };
 		E5EA9BE528875DE000197011 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE428875DE000197011 /* TransactionViewController.swift */; };
+		E5EA9BE728875FD400197011 /* TransactionBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE628875FD400197011 /* TransactionBuyViewController.swift */; };
+		E5EA9BE928875FE000197011 /* TransactionSellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE828875FE000197011 /* TransactionSellViewController.swift */; };
+		E5EA9BEB28875FFD00197011 /* TransactionCalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BEA28875FFD00197011 /* TransactionCalculateViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
 		E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */; };
@@ -126,6 +129,9 @@
 		E5EA9BE028875AAA00197011 /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
 		E5EA9BE228875AC300197011 /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		E5EA9BE428875DE000197011 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		E5EA9BE628875FD400197011 /* TransactionBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBuyViewController.swift; sourceTree = "<group>"; };
+		E5EA9BE828875FE000197011 /* TransactionSellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSellViewController.swift; sourceTree = "<group>"; };
+		E5EA9BEA28875FFD00197011 /* TransactionCalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCalculateViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -320,6 +326,9 @@
 				E5EA9BE028875AAA00197011 /* FollowerViewController.swift */,
 				E5EA9BE228875AC300197011 /* FollowingViewController.swift */,
 				E5EA9BE428875DE000197011 /* TransactionViewController.swift */,
+				E5EA9BE628875FD400197011 /* TransactionBuyViewController.swift */,
+				E5EA9BE828875FE000197011 /* TransactionSellViewController.swift */,
+				E5EA9BEA28875FFD00197011 /* TransactionCalculateViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -640,11 +649,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EA9BE728875FD400197011 /* TransactionBuyViewController.swift in Sources */,
 				E54CE8212883524500537C09 /* SearchViewController.swift in Sources */,
 				E54CE80C2883199E00537C09 /* LoginViewController.swift in Sources */,
 				E589B9872885F2A900B0490A /* AlarmSettingViewController.swift in Sources */,
 				E55F3B3B2886E10C00F0952E /* BungaePointViewController.swift in Sources */,
 				E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */,
+				E5EA9BEB28875FFD00197011 /* TransactionCalculateViewController.swift in Sources */,
 				E5EA9BE528875DE000197011 /* TransactionViewController.swift in Sources */,
 				E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */,
 				E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */,
@@ -663,6 +674,7 @@
 				E5EA9BDF288759DC00197011 /* StoreFeedbackViewController.swift in Sources */,
 				E589B9812885EE2900B0490A /* AlarmViewController.swift in Sources */,
 				E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */,
+				E5EA9BE928875FE000197011 /* TransactionSellViewController.swift in Sources */,
 				E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */,
 				E589B96128858CB600B0490A /* DifferentLoginDataPOST.swift in Sources */,
 				E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */,

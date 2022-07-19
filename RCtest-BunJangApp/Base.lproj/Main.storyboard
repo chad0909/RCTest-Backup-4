@@ -3886,13 +3886,23 @@
                                     <constraint firstItem="g5s-8i-P2D" firstAttribute="centerX" secondItem="KCt-at-Xx0" secondAttribute="centerX" id="tna-zN-12e"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zSD-DB-sMe">
+                                <rect key="frame" x="0.0" y="93" width="414" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="iWI-QU-pgw"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1vs-hi-NCy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="KCt-at-Xx0" firstAttribute="leading" secondItem="1vs-hi-NCy" secondAttribute="leading" id="FgR-N8-J2Q"/>
+                            <constraint firstItem="zSD-DB-sMe" firstAttribute="top" secondItem="KCt-at-Xx0" secondAttribute="bottom" id="Hoc-te-S9f"/>
                             <constraint firstItem="KCt-at-Xx0" firstAttribute="top" secondItem="1vs-hi-NCy" secondAttribute="top" id="Soa-oO-UXc"/>
+                            <constraint firstAttribute="trailing" secondItem="zSD-DB-sMe" secondAttribute="trailing" id="eva-Mn-KN9"/>
+                            <constraint firstItem="zSD-DB-sMe" firstAttribute="leading" secondItem="1vs-hi-NCy" secondAttribute="leading" id="gVV-bo-ftX"/>
                             <constraint firstAttribute="trailing" secondItem="KCt-at-Xx0" secondAttribute="trailing" id="wdA-f9-S8S"/>
                         </constraints>
                         <connections>
@@ -3900,11 +3910,29 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="GPh-79-xr9"/>
+                    <connections>
+                        <outlet property="tempView" destination="zSD-DB-sMe" id="gai-0G-arg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cS-Qe-6IW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="PSe-xl-npu"/>
             </objects>
             <point key="canvasLocation" x="5530" y="2398"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="szf-GZ-Ua8">
+            <objects>
+                <viewController id="NQR-je-44P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cnf-m4-Opg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zva-Go-Nra"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsR-LO-CF9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7580" y="2398"/>
         </scene>
         <!--Following View Controller-->
         <scene sceneID="VRg-ij-aPZ">
@@ -3969,6 +3997,93 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dPV-XR-Tj4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4765" y="2398"/>
+        </scene>
+        <!--Transaction Buy View Controller-->
+        <scene sceneID="Gp4-R6-L7k">
+            <objects>
+                <viewController storyboardIdentifier="TransactionBuyViewController" id="Yfc-fI-yHo" customClass="TransactionBuyViewController" customModule="RCtest_BunJangApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Uw-rl-Wez">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jpu-gh-Vwu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="109"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="109" id="Yqa-qD-zEc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oNW-Eg-nzj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jpu-gh-Vwu" firstAttribute="leading" secondItem="oNW-Eg-nzj" secondAttribute="leading" id="7mn-iQ-UsZ"/>
+                            <constraint firstItem="jpu-gh-Vwu" firstAttribute="top" secondItem="oNW-Eg-nzj" secondAttribute="top" id="Dld-aB-VSo"/>
+                            <constraint firstAttribute="trailing" secondItem="jpu-gh-Vwu" secondAttribute="trailing" id="e3h-Pa-5Jr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JoR-Sx-bHJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4923" y="3086"/>
+        </scene>
+        <!--Transaction Sell View Controller-->
+        <scene sceneID="mKh-M3-QEP">
+            <objects>
+                <viewController storyboardIdentifier="TransactionCalculateViewController" id="vMm-5f-La8" customClass="TransactionSellViewController" customModule="RCtest_BunJangApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ycu-Am-GUl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="95D-nb-GHM">
+                                <rect key="frame" x="0.0" y="44" width="414" height="109"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="109" id="P8M-Tl-GIS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="10V-dQ-PJY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="95D-nb-GHM" secondAttribute="trailing" id="h00-7P-9Zl"/>
+                            <constraint firstItem="95D-nb-GHM" firstAttribute="leading" secondItem="10V-dQ-PJY" secondAttribute="leading" id="ht4-SV-Gd8"/>
+                            <constraint firstItem="95D-nb-GHM" firstAttribute="top" secondItem="10V-dQ-PJY" secondAttribute="top" id="pnq-ig-uX7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iki-rD-cmG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5529" y="3086"/>
+        </scene>
+        <!--Transaction Calculate View Controller-->
+        <scene sceneID="6UX-Ks-qJ5">
+            <objects>
+                <viewController storyboardIdentifier="TransactionCalculateViewController" id="RVA-Ei-Gef" customClass="TransactionCalculateViewController" customModule="RCtest_BunJangApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CjP-rx-1G1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yeX-FS-nza">
+                                <rect key="frame" x="0.0" y="44" width="414" height="109"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="109" id="tdN-Gg-TEI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8A3-Zb-lpj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yeX-FS-nza" firstAttribute="top" secondItem="8A3-Zb-lpj" secondAttribute="top" id="EgX-ES-fU3"/>
+                            <constraint firstItem="8A3-Zb-lpj" firstAttribute="trailing" secondItem="yeX-FS-nza" secondAttribute="trailing" id="rHn-Gd-njG"/>
+                            <constraint firstItem="yeX-FS-nza" firstAttribute="leading" secondItem="CjP-rx-1G1" secondAttribute="leading" id="xsT-lP-UFv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gvx-p3-qMF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6136" y="3086"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
