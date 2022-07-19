@@ -48,6 +48,9 @@
 		E5EA9BDB2887567300197011 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BDA2887567300197011 /* LikeViewController.swift */; };
 		E5EA9BDD2887568700197011 /* RecentProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BDC2887568700197011 /* RecentProductViewController.swift */; };
 		E5EA9BDF288759DC00197011 /* StoreFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BDE288759DC00197011 /* StoreFeedbackViewController.swift */; };
+		E5EA9BE128875AAA00197011 /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE028875AAA00197011 /* FollowerViewController.swift */; };
+		E5EA9BE328875AC300197011 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE228875AC300197011 /* FollowingViewController.swift */; };
+		E5EA9BE528875DE000197011 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE428875DE000197011 /* TransactionViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
 		E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */; };
@@ -120,6 +123,9 @@
 		E5EA9BDA2887567300197011 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
 		E5EA9BDC2887568700197011 /* RecentProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentProductViewController.swift; sourceTree = "<group>"; };
 		E5EA9BDE288759DC00197011 /* StoreFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFeedbackViewController.swift; sourceTree = "<group>"; };
+		E5EA9BE028875AAA00197011 /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
+		E5EA9BE228875AC300197011 /* FollowingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		E5EA9BE428875DE000197011 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -311,6 +317,9 @@
 				E5EA9BDA2887567300197011 /* LikeViewController.swift */,
 				E5EA9BDC2887568700197011 /* RecentProductViewController.swift */,
 				E5EA9BDE288759DC00197011 /* StoreFeedbackViewController.swift */,
+				E5EA9BE028875AAA00197011 /* FollowerViewController.swift */,
+				E5EA9BE228875AC300197011 /* FollowingViewController.swift */,
+				E5EA9BE428875DE000197011 /* TransactionViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -636,6 +645,7 @@
 				E589B9872885F2A900B0490A /* AlarmSettingViewController.swift in Sources */,
 				E55F3B3B2886E10C00F0952E /* BungaePointViewController.swift in Sources */,
 				E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */,
+				E5EA9BE528875DE000197011 /* TransactionViewController.swift in Sources */,
 				E54CE80A288318C000537C09 /* BaseViewController.swift in Sources */,
 				E54CE81928832EE600537C09 /* LoginCollectionViewCell.swift in Sources */,
 				E589B95C2885483600B0490A /* HomeCategoryCollectionViewCell.swift in Sources */,
@@ -644,8 +654,10 @@
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
 				E589B95F28856A8300B0490A /* DiffLoginInputDataViewController.swift in Sources */,
 				E5EA9BDD2887568700197011 /* RecentProductViewController.swift in Sources */,
+				E5EA9BE128875AAA00197011 /* FollowerViewController.swift in Sources */,
 				E589B97F2885EAFD00B0490A /* SettingViewController.swift in Sources */,
 				E589B9792885D4D300B0490A /* AllMenuCategoryViewController.swift in Sources */,
+				E5EA9BE328875AC300197011 /* FollowingViewController.swift in Sources */,
 				E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */,
 				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
 				E5EA9BDF288759DC00197011 /* StoreFeedbackViewController.swift in Sources */,
