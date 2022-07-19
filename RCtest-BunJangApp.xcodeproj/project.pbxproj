@@ -44,6 +44,10 @@
 		E589B9852885EECF00B0490A /* AlarmKeywordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B9842885EECF00B0490A /* AlarmKeywordViewController.swift */; };
 		E589B9872885F2A900B0490A /* AlarmSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589B9862885F2A900B0490A /* AlarmSettingViewController.swift */; };
 		E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58AC3BD28847B3000D5816F /* MyPageViewController.swift */; };
+		E5EA9BD92887547700197011 /* InterestProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BD82887547700197011 /* InterestProductViewController.swift */; };
+		E5EA9BDB2887567300197011 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BDA2887567300197011 /* LikeViewController.swift */; };
+		E5EA9BDD2887568700197011 /* RecentProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BDC2887568700197011 /* RecentProductViewController.swift */; };
+		E5EA9BDF288759DC00197011 /* StoreFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BDE288759DC00197011 /* StoreFeedbackViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
 		E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */; };
@@ -112,6 +116,10 @@
 		E589B9842885EECF00B0490A /* AlarmKeywordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmKeywordViewController.swift; sourceTree = "<group>"; };
 		E589B9862885F2A900B0490A /* AlarmSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettingViewController.swift; sourceTree = "<group>"; };
 		E58AC3BD28847B3000D5816F /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		E5EA9BD82887547700197011 /* InterestProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestProductViewController.swift; sourceTree = "<group>"; };
+		E5EA9BDA2887567300197011 /* LikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		E5EA9BDC2887568700197011 /* RecentProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentProductViewController.swift; sourceTree = "<group>"; };
+		E5EA9BDE288759DC00197011 /* StoreFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFeedbackViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -299,6 +307,10 @@
 				E589B9842885EECF00B0490A /* AlarmKeywordViewController.swift */,
 				E589B9862885F2A900B0490A /* AlarmSettingViewController.swift */,
 				E55F3B3A2886E10C00F0952E /* BungaePointViewController.swift */,
+				E5EA9BD82887547700197011 /* InterestProductViewController.swift */,
+				E5EA9BDA2887567300197011 /* LikeViewController.swift */,
+				E5EA9BDC2887568700197011 /* RecentProductViewController.swift */,
+				E5EA9BDE288759DC00197011 /* StoreFeedbackViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -631,10 +643,12 @@
 				E589B97D2885D4EC00B0490A /* AllMenuServiceViewController.swift in Sources */,
 				E54CE7D428827E1500537C09 /* RCtest_BunJangApp.xcdatamodeld in Sources */,
 				E589B95F28856A8300B0490A /* DiffLoginInputDataViewController.swift in Sources */,
+				E5EA9BDD2887568700197011 /* RecentProductViewController.swift in Sources */,
 				E589B97F2885EAFD00B0490A /* SettingViewController.swift in Sources */,
 				E589B9792885D4D300B0490A /* AllMenuCategoryViewController.swift in Sources */,
 				E58AC3BE28847B3000D5816F /* MyPageViewController.swift in Sources */,
 				E54CE81D28833D6800537C09 /* DifferentLoginViewController.swift in Sources */,
+				E5EA9BDF288759DC00197011 /* StoreFeedbackViewController.swift in Sources */,
 				E589B9812885EE2900B0490A /* AlarmViewController.swift in Sources */,
 				E54CE81F28834F6F00537C09 /* HomeViewController.swift in Sources */,
 				E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */,
@@ -642,11 +656,13 @@
 				E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */,
 				E589B9832885EEC200B0490A /* AlarmNewFeedViewController.swift in Sources */,
 				E589B9852885EECF00B0490A /* AlarmKeywordViewController.swift in Sources */,
+				E5EA9BDB2887567300197011 /* LikeViewController.swift in Sources */,
 				E54CE7CC28827E1500537C09 /* SceneDelegate.swift in Sources */,
 				E589B96328858D3A00B0490A /* DifferentLoginDataResponse.swift in Sources */,
 				E589B9772885D25A00B0490A /* AllMenuViewController.swift in Sources */,
 				E5FDBAFE2883FC08003746F7 /* ChatTableViewCell.swift in Sources */,
 				E589B97B2885D4E200B0490A /* AllMenuBrandViewController.swift in Sources */,
+				E5EA9BD92887547700197011 /* InterestProductViewController.swift in Sources */,
 				E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */,
 				E54CE81128831EBF00537C09 /* Color.swift in Sources */,
 			);
