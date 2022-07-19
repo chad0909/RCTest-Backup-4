@@ -54,6 +54,10 @@
 		E5EA9BE728875FD400197011 /* TransactionBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE628875FD400197011 /* TransactionBuyViewController.swift */; };
 		E5EA9BE928875FE000197011 /* TransactionSellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BE828875FE000197011 /* TransactionSellViewController.swift */; };
 		E5EA9BEB28875FFD00197011 /* TransactionCalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BEA28875FFD00197011 /* TransactionCalculateViewController.swift */; };
+		E5EA9BED288761EE00197011 /* ParcelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BEC288761EE00197011 /* ParcelViewController.swift */; };
+		E5EA9BEF288761FD00197011 /* ParcelGetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BEE288761FD00197011 /* ParcelGetViewController.swift */; };
+		E5EA9BF12887620B00197011 /* ParcelSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BF02887620B00197011 /* ParcelSendViewController.swift */; };
+		E5EA9BF32887621600197011 /* ParcelRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA9BF22887621600197011 /* ParcelRequestViewController.swift */; };
 		E5FDBAF12883E480003746F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF02883E480003746F7 /* TabbarViewController.swift */; };
 		E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAF62883F031003746F7 /* RegisterViewController.swift */; };
 		E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */; };
@@ -132,6 +136,10 @@
 		E5EA9BE628875FD400197011 /* TransactionBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBuyViewController.swift; sourceTree = "<group>"; };
 		E5EA9BE828875FE000197011 /* TransactionSellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionSellViewController.swift; sourceTree = "<group>"; };
 		E5EA9BEA28875FFD00197011 /* TransactionCalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCalculateViewController.swift; sourceTree = "<group>"; };
+		E5EA9BEC288761EE00197011 /* ParcelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelViewController.swift; sourceTree = "<group>"; };
+		E5EA9BEE288761FD00197011 /* ParcelGetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelGetViewController.swift; sourceTree = "<group>"; };
+		E5EA9BF02887620B00197011 /* ParcelSendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelSendViewController.swift; sourceTree = "<group>"; };
+		E5EA9BF22887621600197011 /* ParcelRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParcelRequestViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF02883E480003746F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		E5FDBAF62883F031003746F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E5FDBAFA2883FB38003746F7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -329,6 +337,10 @@
 				E5EA9BE628875FD400197011 /* TransactionBuyViewController.swift */,
 				E5EA9BE828875FE000197011 /* TransactionSellViewController.swift */,
 				E5EA9BEA28875FFD00197011 /* TransactionCalculateViewController.swift */,
+				E5EA9BEC288761EE00197011 /* ParcelViewController.swift */,
+				E5EA9BEE288761FD00197011 /* ParcelGetViewController.swift */,
+				E5EA9BF02887620B00197011 /* ParcelSendViewController.swift */,
+				E5EA9BF22887621600197011 /* ParcelRequestViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -677,6 +689,7 @@
 				E5EA9BE928875FE000197011 /* TransactionSellViewController.swift in Sources */,
 				E54CE7CA28827E1500537C09 /* AppDelegate.swift in Sources */,
 				E589B96128858CB600B0490A /* DifferentLoginDataPOST.swift in Sources */,
+				E5EA9BEF288761FD00197011 /* ParcelGetViewController.swift in Sources */,
 				E5FDBAFB2883FB38003746F7 /* ChatViewController.swift in Sources */,
 				E589B9832885EEC200B0490A /* AlarmNewFeedViewController.swift in Sources */,
 				E589B9852885EECF00B0490A /* AlarmKeywordViewController.swift in Sources */,
@@ -685,9 +698,12 @@
 				E589B96328858D3A00B0490A /* DifferentLoginDataResponse.swift in Sources */,
 				E589B9772885D25A00B0490A /* AllMenuViewController.swift in Sources */,
 				E5FDBAFE2883FC08003746F7 /* ChatTableViewCell.swift in Sources */,
+				E5EA9BED288761EE00197011 /* ParcelViewController.swift in Sources */,
 				E589B97B2885D4E200B0490A /* AllMenuBrandViewController.swift in Sources */,
 				E5EA9BD92887547700197011 /* InterestProductViewController.swift in Sources */,
 				E5FDBAF72883F031003746F7 /* RegisterViewController.swift in Sources */,
+				E5EA9BF32887621600197011 /* ParcelRequestViewController.swift in Sources */,
+				E5EA9BF12887620B00197011 /* ParcelSendViewController.swift in Sources */,
 				E54CE81128831EBF00537C09 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

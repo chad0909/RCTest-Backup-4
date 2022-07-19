@@ -1,5 +1,5 @@
 //
-//  TransactionViewController.swift
+//  ParcelViewController.swift
 //  RCtest-BunJangApp
 //
 //  Created by 077tech on 2022/07/20.
@@ -9,25 +9,24 @@ import UIKit
 import Tabman
 import Pageboy
 
-class TransactionViewController: TabmanViewController {
+class ParcelViewController: TabmanViewController {
 
     @IBAction func backButton(_ sender: Any) {
         dismiss(animated: true)
     }
-    // 상단 탭바 라이브러리 - TabMan 사용
     private var viewControllers: Array<UIViewController> = []
     @IBOutlet weak var tempView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let BuyTab = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TransactionBuyViewController") as! TransactionBuyViewController
-        let SellTab = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TransactionSellViewController") as! TransactionSellViewController
-        let CalculateTab = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TransactionCalculateViewController") as! TransactionCalculateViewController
+        let GetTab = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ParcelGetViewController") as! ParcelGetViewController
+        let SendTab = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ParcelSendViewController") as! ParcelSendViewController
+        let RequestTab = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ParcelRequestViewController") as! ParcelRequestViewController
 
-        viewControllers.append(BuyTab)
-        viewControllers.append(SellTab)
-        viewControllers.append(CalculateTab)
+        viewControllers.append(GetTab)
+        viewControllers.append(SendTab)
+        viewControllers.append(RequestTab)
 
         self.dataSource = self
 
@@ -38,12 +37,12 @@ class TransactionViewController: TabmanViewController {
         bar.layout.contentInset = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 0.0, right: 0.0)
         bar.buttons.customize { (button) in
             button.tintColor = .gray // 선택 안되어 있을 때
-            button.selectedTintColor = .black // 선택 되어 있을 때
-            button.font = UIFont.boldSystemFont(ofSize: 16)
+            button.selectedTintColor = .red // 선택 되어 있을 때
+            button.font = UIFont.boldSystemFont(ofSize: 14)
         }
         // 인디케이터 조정
         bar.indicator.weight = .light
-        bar.indicator.tintColor = .black
+        bar.indicator.tintColor = .red
         bar.indicator.overscrollBehavior = .compress
         bar.layout.alignment = .centerDistributed
         bar.layout.contentMode = .fit
@@ -60,18 +59,18 @@ class TransactionViewController: TabmanViewController {
     }
 }
 
-extension TransactionViewController: PageboyViewControllerDataSource, TMBarDataSource {
+extension ParcelViewController: PageboyViewControllerDataSource, TMBarDataSource {
     
     func barItem(for bar: TMBar, at index: Int) -> TMBarItemable {
         
         // MARK: - Tab 안 글씨들
         switch index {
         case 0:
-            return TMBarItem(title: "구매")
+            return TMBarItem(title: "수취 내역")
         case 1:
-            return TMBarItem(title: "판매")
+            return TMBarItem(title: "발신 내역")
         case 2:
-            return TMBarItem(title: "정산")
+            return TMBarItem(title: "택배신청")
         default:
             let title = "Page \(index)"
             return TMBarItem(title: title)
