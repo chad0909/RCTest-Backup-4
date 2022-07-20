@@ -24,12 +24,46 @@ class HomeViewController: UIViewController {
     
 // CategoryCollectionView
     @IBOutlet weak var CategoryCollectionView: UICollectionView!
-    let categoryDataArray: Array<UIImage> = [UIImage(named: "myLikeButton")!, UIImage(named: "myRecentViewButton")!]
+    let categoryDataArray: Array<UIImage> = [
+        UIImage(named: "myLikeButton")!,
+        UIImage(named: "Adidas")!,
+        UIImage(named: "myRecentViewButton")!,
+        UIImage(named: "Sneakers")!,
+        UIImage(named: "myFeedButton")!,
+        UIImage(named: "Tent")!,
+        UIImage(named: "myPhoneButton")!,
+        UIImage(named: "Bicycle")!,
+        UIImage(named: "myLocationButton")!,
+        UIImage(named: "StarGoods")!,
+        UIImage(named: "friendButton")!,
+        UIImage(named: "Scooter")!,
+        UIImage(named: "Allmenu")!,
+        UIImage(named: "Watch")!,
+    ]
+    
+    let categoryString : Array<String> = [
+    "찜",
+    "아디다스",
+    "최근본상품",
+    "스니커즈",
+    "내피드",
+    "캠핑",
+    "내폰시세",
+    "자전거",
+    "우리동네",
+    "스타굿즈",
+    "친구초대",
+    "오토바이",
+    "전체메뉴",
+    "시계"
+    ]
     
 // Label
     @IBOutlet weak var RecommendLabel: UILabel!
     var name : String = "비회원"
     
+//CategoryCollectionView
+    let sectionInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     
     
 
@@ -55,7 +89,6 @@ class HomeViewController: UIViewController {
         let nibName = UINib(nibName: "HomeCategoryCollectionViewCell", bundle: nil)
         CategoryCollectionView.register(nibName, forCellWithReuseIdentifier: "HomeCategoryCell")
     }
-    
 // 배너 타이머
     func bannerTimer() {
         let _: Timer = Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { (Timer) in
@@ -102,6 +135,7 @@ UICollectionViewDelegateFlowLayout {
         }else{
             let cell = CategoryCollectionView.dequeueReusableCell(withReuseIdentifier: "HomeCategoryCell", for: indexPath) as! HomeCategoryCollectionViewCell
             cell.categoryImgView.image = categoryDataArray[indexPath.row]
+            cell.categoryName.text = categoryString[indexPath.row]
             return cell
         }
     }
@@ -109,13 +143,28 @@ UICollectionViewDelegateFlowLayout {
 
 //컬렉션뷰 사이즈 설정
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: adCollectionView.frame.size.width  , height:  adCollectionView.frame.height)
+        if collectionView == adCollectionView{
+            return CGSize(width: adCollectionView.frame.size.width  , height:  adCollectionView.frame.height)
+        }else{
+//              let width = collectionView.frame.width
+//              let height = collectionView.frame.height
+//              let itemsPerRow: CGFloat = 7
+//              let widthPadding = sectionInsets.left * (itemsPerRow + 1)
+//              let itemsPerColumn: CGFloat = 2
+//              let heightPadding = sectionInsets.top * (itemsPerColumn + 1)
+//              let cellWidth = (width - widthPadding) / itemsPerRow
+//              let cellHeight = (height - heightPadding) / itemsPerColumn
+              
+
+            return CGSize(width: 80, height: 80)
+        }
     }
     
 //컬렉션뷰 감속 끝났을 때 현재 페이지 체크
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         nowPage = Int(scrollView.contentOffset.x) / Int(scrollView.frame.width)
     }
+    
 }
 
 
