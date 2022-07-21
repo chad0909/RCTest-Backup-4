@@ -30,16 +30,13 @@ Team Proposal : https://www.notion.so/softsquared/_D-9b8a20c17b374a7aa9de32714d0
   - getAuthority to album
 
 #### Personal Proposal
-![Rc Test - 번개장터-1](https://user-images.githubusercontent.com/108044639/179356884-ed7a91b9-b78a-441c-91e3-5955ae57fe6a.jpg)
-![Rc Test - 번개장터-2](https://user-images.githubusercontent.com/108044639/179356944-da88ceaa-b0b6-40d4-aa96-0f924e4d2bf6.jpg)
-![Rc Test - 번개장터-3](https://user-images.githubusercontent.com/108044639/179356949-cf94b6a8-4cdd-4e9a-9f86-6cc2b62e0646.jpg)
-![Rc Test - 번개장터-4](https://user-images.githubusercontent.com/108044639/179356950-b8a7841c-6421-403e-a8da-5e01ac77d140.jpg)
-![Rc Test - 번개장터-5](https://user-images.githubusercontent.com/108044639/179356953-c88eb7ff-7083-46f4-822f-6cb338d4b519.jpg)
-![Rc Test - 번개장터-6](https://user-images.githubusercontent.com/108044639/179356957-07e82713-d0d1-4c19-9258-645015603152.jpg)
-![Rc Test - 번개장터-7](https://user-images.githubusercontent.com/108044639/179356959-70a263bb-b037-4a89-81bc-0f83a732ca64.jpg)
-![Rc Test - 번개장터-8](https://user-images.githubusercontent.com/108044639/179356962-7c602c49-d356-4898-b631-90f3244dd368.jpg)
-![Rc Test - 번개장터-9](https://user-images.githubusercontent.com/108044639/179356966-8c3ba684-b6e2-490e-9044-559878b39475.jpg)
-![Rc Test - 번개장터-10](https://user-images.githubusercontent.com/108044639/179356968-2cbb0ace-7676-4aa4-8685-288b7d2e6d8c.jpg)
+
+<img width="1582" alt="스크린샷 2022-07-21 오전 9 43 25" src="https://user-images.githubusercontent.com/108044639/180105955-13fe9364-3994-43d5-a175-c1b6f68e5e69.png">
+<img width="1755" alt="스크린샷 2022-07-21 오전 9 43 57" src="https://user-images.githubusercontent.com/108044639/180105984-7489a7ce-e2d1-4b6a-be0a-437f33cebbef.png">
+<img width="1851" alt="스크린샷 2022-07-21 오전 9 40 57" src="https://user-images.githubusercontent.com/108044639/180105877-be18f709-ee6f-4af0-876b-b25a32635b3a.png">
+
+
+
 
 ## 220717
 - Made LoginPage (100%)
@@ -52,10 +49,8 @@ Team Proposal : https://www.notion.so/softsquared/_D-9b8a20c17b374a7aa9de32714d0
 - Screen Transition is strange(keeps on pushing, need edit)
 
 #### Image
-<img width="445" alt="LoginPage" src="https://user-images.githubusercontent.com/108044639/179404259-72684c87-bad4-4d09-8919-99bfb5af8197.png">
-<img width="428" alt="DiffLoginPage" src="https://user-images.githubusercontent.com/108044639/179404260-528491f2-7c0e-42bd-9e75-24a6d5615eaf.png">
-<img width="432" alt="RegisterPage" src="https://user-images.githubusercontent.com/108044639/179404261-810096e3-80a1-452d-b30c-11c39f5cbf83.png">
-<img width="436" alt="ChatPage" src="https://user-images.githubusercontent.com/108044639/179404264-aa3b462a-c4b0-42a2-8df8-694717e20586.png">
+<img width="2032" alt="스크린샷 2022-07-21 오전 9 38 20" src="https://user-images.githubusercontent.com/108044639/180105543-c4fb1e3f-2886-4a60-9a81-632bec69147b.png">
+
 
 
 ## 220718
@@ -70,9 +65,8 @@ Team Proposal : https://www.notion.so/softsquared/_D-9b8a20c17b374a7aa9de32714d0
 - Making HomeScreen (60%)
 
 #### Image
-<img width="387" alt="스크린샷 2022-07-19 오전 12 20 57" src="https://user-images.githubusercontent.com/108044639/179545244-3cc07e1c-f83a-40d2-af61-45a8b6597682.png">
-<img width="387" alt="스크린샷 2022-07-19 오전 12 20 08" src="https://user-images.githubusercontent.com/108044639/179545254-e691dffd-62dc-47b7-89fb-3293120693b9.png">
-<img width="215" alt="스크린샷 2022-07-19 오전 12 20 37" src="https://user-images.githubusercontent.com/108044639/179545259-99e56b9f-8471-4589-9db7-b00ea7b48f5d.png">
+<img width="1486" alt="스크린샷 2022-07-21 오전 9 37 32" src="https://user-images.githubusercontent.com/108044639/180105489-8eb9d4dd-9003-43a2-a54a-1dc8a6362012.png">
+
 
 ## 220719
 
@@ -82,8 +76,24 @@ Team Proposal : https://www.notion.so/softsquared/_D-9b8a20c17b374a7aa9de32714d0
 - Made AllMenu with 3tabbar
 - These are all made without API, Will put in API when all screens are approximately made.
 
-
+#### Image
 <img width="1693" alt="스크린샷 2022-07-19 오후 11 28 08" src="https://user-images.githubusercontent.com/108044639/179775335-12b8c03d-f8ab-4543-824f-a83262823c85.png">
+
+## 220720
+
+- Made Like Screen + Recent Screen
+- Made Follower, Following Screen
+- Made Transaction Record Screen
+- Made Parcel Managament Screen
+- Made MyFeed Screen
+- Made MyPhonePrice Screen
+- Made MyLocation Screen
+- Making Friend Invitation Screen
+
+#### Image
+<img width="1751" alt="스크린샷 2022-07-21 오전 9 33 13" src="https://user-images.githubusercontent.com/108044639/180105114-97bbcf0e-7b55-48bd-9e99-c9cd5af993d7.png">
+
+
 
 
 ---
@@ -146,11 +156,11 @@ Team Proposal : https://www.notion.so/softsquared/_D-9b8a20c17b374a7aa9de32714d0
   - collectionView + CRUD (Recent Product)
   - Filter
   - CRUD 
-- FeedbackScreen
-- FollowerScreen 
-- FollowingScreen
-- TransactionScreen
-- ParcelManagementScreen
+- ~~FeedbackScreen~~
+- ~~FollowerScreen~~
+- ~~FollowingScreen~~
+- ~~TransactionScreen~~
+- ~~ParcelManagementScreen~~
 - SellerCenterScreen
   - Left Screen Pop up **Need Research**
   - NavigationBar Title Popups when Scroll down ***Need Research***
