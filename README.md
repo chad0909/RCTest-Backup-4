@@ -93,6 +93,20 @@ Team Proposal : https://www.notion.so/softsquared/_D-9b8a20c17b374a7aa9de32714d0
 #### Image
 <img width="1751" alt="스크린샷 2022-07-21 오전 9 33 13" src="https://user-images.githubusercontent.com/108044639/180105114-97bbcf0e-7b55-48bd-9e99-c9cd5af993d7.png">
 
+## 220721
+- Made Brand Category Screen
+- Made Category Screen
+- Finished Friend Invitation Screen
+- Added 2 more screens to Diff. Login Screen
+- 1 API (Post and get Verification Message) Added
+
+#### Image
+
+<img width="2136" alt="스크린샷 2022-07-22 오전 1 22 12" src="https://user-images.githubusercontent.com/108044639/180264746-aab5a04f-b46e-4a77-90a6-99213b15c6c0.png">
+<img width="1715" alt="스크린샷 2022-07-22 오전 1 23 04" src="https://user-images.githubusercontent.com/108044639/180264754-3615ae30-629e-4d8d-9f40-ccb67607096e.png">
+
+
+## 220722
 
 
 
