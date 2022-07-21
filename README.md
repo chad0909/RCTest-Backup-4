@@ -199,7 +199,10 @@ https://www.freecodecamp.org/news/tutorial-creating-stretchy-layouts-on-ios-usin
 ##### textField placeholder
 https://cozzin.tistory.com/27
 
-##### textView placeholder
+##### UserDefaults
+https://zeddios.tistory.com/107
+
+
 
 ### Git
 https://coding-factory.tistory.com/620
