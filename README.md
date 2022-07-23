@@ -107,8 +107,14 @@ Team Proposal : https://www.notion.so/softsquared/_D-9b8a20c17b374a7aa9de32714d0
 
 
 ## 220722
+- Made Diff Login Screen (Need Edit Little)
+- API 1,2,3,5,8 (Done)
 
 
+#### Image
+<img width="2233" alt="스크린샷 2022-07-23 오전 11 06 46" src="https://user-images.githubusercontent.com/108044639/180586457-7b5e4139-81b2-459f-af8f-1b92f57a16e7.png">
+
+API: 1,2,3,5,8
 
 ---
 ---
