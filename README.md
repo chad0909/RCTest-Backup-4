@@ -116,6 +116,17 @@ Team Proposal : https://www.notion.so/softsquared/_D-9b8a20c17b374a7aa9de32714d0
 
 API: 1,2,3,5,8
 
+
+## 220723 & 220724
+= API 12, 13, 35, 36 Done
+- Small Edits for API insert
+- Made Setting Screen Tableview Made
+
+#### Image
+<img width="1614" alt="스크린샷 2022-07-24 오후 10 49 38" src="https://user-images.githubusercontent.com/108044639/180650109-7ac0b2b6-7a60-40bb-9879-120330c6f465.png">
+
+API: 1,2,3,5,8,12,13,35,36
+
 ---
 ---
 
@@ -208,7 +219,11 @@ https://cozzin.tistory.com/27
 ##### UserDefaults
 https://zeddios.tistory.com/107
 
+##### ImageURL
+https://stackoverflow.com/questions/24231680/loading-downloading-image-from-url-on-swift
 
+##### Tableview Section
+https://calmone.tistory.com/entry/iOS-UIKit-in-Swift-4-section%EC%9C%BC%EB%A1%9C-%EB%82%98%EB%88%84%EC%96%B4%EC%A7%84-UITableView-%EB%A7%8C%EB%93%A4%EA%B8%B0
 
 ### Git
 https://coding-factory.tistory.com/620
