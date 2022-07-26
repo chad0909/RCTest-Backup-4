@@ -127,6 +127,20 @@ API: 1,2,3,5,8
 
 API: 1,2,3,5,8,12,13,35,36
 
+## 220725 & 220726
+- Continuing on Developing Screen(More Detail)
+  - Home tabman added
+  - Home ad contentindex added
+  - Search Screen Update
+  - Chat Screen Update
+  - My Page Update
+
+
+
+
+
+
+
 ---
 ---
 
@@ -224,6 +238,10 @@ https://stackoverflow.com/questions/24231680/loading-downloading-image-from-url-
 
 ##### Tableview Section
 https://calmone.tistory.com/entry/iOS-UIKit-in-Swift-4-section%EC%9C%BC%EB%A1%9C-%EB%82%98%EB%88%84%EC%96%B4%EC%A7%84-UITableView-%EB%A7%8C%EB%93%A4%EA%B8%B0
+
+#### Alamofire error 
+https://zeddios.tistory.com/798
+
 
 ### Git
 https://coding-factory.tistory.com/620
