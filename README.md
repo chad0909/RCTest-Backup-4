@@ -219,12 +219,10 @@ API: 1,2,3,5,8,12,13,35,36
 - ~~PointScreen~~ 
 - ~~AlarmScreen~~ 
 - ~~SettingScreen~~ 
-- StickyHead **Need Research**
-- Search / Filter / Align / Edit
-- LikeScreen
-  - collectionView + CRUD (Recent Product)
-  - Filter
-  - CRUD 
+- ~~Search / Filter / Align / Edit
+- ~~LikeScreen
+  - ~~collectionView + CRUD (Recent Product)
+  - ~~Filter
 - ~~FeedbackScreen~~
 - ~~FollowerScreen~~
 - ~~FollowingScreen~~
