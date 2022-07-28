@@ -135,6 +135,34 @@ API: 1,2,3,5,8,12,13,35,36
   - Chat Screen Update
   - My Page Update
 
+## 220727
+- Home Screen Updated
+  - Recommend Tab Added (Tabman)
+  - Brand Tab Added (Tabman)
+  - API Added
+
+#### Image
+<img width="1329" alt="스크린샷 2022-07-29 오전 7 52 43" src="https://user-images.githubusercontent.com/108044639/181650701-9965ccbc-8961-4f44-89b8-3f2f21f5fd0d.png">
+<img width="1351" alt="스크린샷 2022-07-29 오전 7 53 01" src="https://user-images.githubusercontent.com/108044639/181650705-9e450d25-66c3-4ae0-a59b-f160a77d04d8.png">
+
+
+## 220728~
+- Product Detail Screen Finsied
+- Report Screen Finished
+- Store Detail Screen Finished
+- Mypage tabman Finished (additional edit)
+- Account Setting Screen Finished
+- Store Setting Screen Finished
+- Follower Finished
+- etc Screen Finished (reference below)
+- 24 APIs finished in total
+
+
+#### Image
+<img width="2067" alt="스크린샷 2022-07-29 오전 7 56 54" src="https://user-images.githubusercontent.com/108044639/181650970-9a3bc1f3-b83f-45d0-a5c6-dd4fe8b1f89a.png">
+<img width="2129" alt="스크린샷 2022-07-29 오전 7 57 35" src="https://user-images.githubusercontent.com/108044639/181650981-2e466647-ddb4-4f5d-86d9-c4278dd0383f.png">
+<img width="1469" alt="스크린샷 2022-07-29 오전 7 58 02" src="https://user-images.githubusercontent.com/108044639/181650984-a2e1a352-e506-4cf0-842f-8c2cd1f31bd9.png">
+<img width="2011" alt="스크린샷 2022-07-29 오전 7 58 47" src="https://user-images.githubusercontent.com/108044639/181650995-3c93a3d8-55f6-4b2e-b35f-1179460f0764.png">
 
 
 
@@ -147,49 +175,45 @@ API: 1,2,3,5,8,12,13,35,36
 
 # To-Do-List
 
-### LaunchScreen
-- (Animation 2sec) **Need Research**
+
 ### LoginScreen
 - ~~Main~~ 
 - ~~Different Method Login~~ 
-- Popup
+- ~~Popup~~
 ### HomeScreen
-- Remove icon background
+- ~~Remove icon background~~
 - ~~Ad -> CollectionView(Auto Paging)~~ 
-- Category -> CollectionView (Scrollbar)[API]
-- StickyHead + Tabman ***Need Research***
-- StretchyImage ***Need Research***
-- Recommend Product -> CollectionView[API](Infinite Scroll?)
-- Brand
-  - if add {tableview add(logo&items) [API]
-  - else {diff screen + recommend screen}
-  - Edit -> getBrandData [API]
-  - See all product -> getBrandItemData[API]
+- ~~Category -> CollectionView (Scrollbar)[API]
+- ~~Recommend Product -> CollectionView[API](Infinite Scroll?)
+- ~~Brand
+  - ~~if add {tableview add(logo&items) [API]
+  - ~~else {diff screen + recommend screen}
+  - ~~Edit -> getBrandData [API]
+  - ~~See all product -> getBrandItemData[API]
   
 ### SearchScreen (Present)
-- Keyboard On
-- Back to HomeScreen
-- Follow On/Off
-- RecommedBrand [API]
-- Recent Search(Add and delete) -> **Need Research**
+- ~~Back to HomeScreen~~
+- ~~Follow On/Off
+- ~~RecommedBrand [API]
+- ~~Recent Search(Add and delete) -> **Need Research**
 
 ### RegisterScreen (Present)
 - ~~MainScreen~~ 
-- DirectDealingButton
-- PhotoButton
-  - getAuthorityToAlbum **Need Research**
-- ProductName
-- Category [API??]
-- Tag
-  - Add tag and give data back to previous screen
-- Option
+- ~~DirectDealingButton
+- ~~PhotoButton
+  - ~~getAuthorityToAlbum **Need Research**
+- ~~ProductName
+- ~~Category [API??]
+- ~~Tag
+  - ~~Add tag and give data back to previous screen
+- ~~Option
 
 ### ChatScreen
 - ~~MainScreen~~ 
-- Setting
-- ChatSetting
-- ChatInfo
-- ChatInsideSetting
+- ~~Setting
+- ~~ChatSetting
+- ~~ChatInfo
+- ~~ChatInsideSetting
 
 ### MyPageScreen
 - ~~PointScreen~~ 
@@ -206,11 +230,11 @@ API: 1,2,3,5,8,12,13,35,36
 - ~~FollowingScreen~~
 - ~~TransactionScreen~~
 - ~~ParcelManagementScreen~~
-- SellerCenterScreen
-  - Left Screen Pop up **Need Research**
-  - NavigationBar Title Popups when Scroll down ***Need Research***
-- ServiceCenterScreen
-  - GetID [API]
+- ~~SellerCenterScreen
+  - ~~Left Screen Pop up **Need Research**
+  - ~~NavigationBar Title Popups when Scroll down ***Need Research***
+- ~~ServiceCenterScreen
+  - ~~GetID [API]
   
 ---
 ---
