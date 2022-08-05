@@ -183,56 +183,56 @@ API: 1,2,3,5,8,12,13,35,36
 ### HomeScreen
 - ~~Remove icon background~~
 - ~~Ad -> CollectionView(Auto Paging)~~ 
-- ~~Category -> CollectionView (Scrollbar)[API]
-- ~~Recommend Product -> CollectionView[API](Infinite Scroll?)
-- ~~Brand
-  - ~~if add {tableview add(logo&items) [API]
-  - ~~else {diff screen + recommend screen}
-  - ~~Edit -> getBrandData [API]
-  - ~~See all product -> getBrandItemData[API]
+- ~~Category -> CollectionView (Scrollbar)[API]~~
+- ~~Recommend Product -> CollectionView[API](Infinite Scroll?)~~
+- ~~Brand~~
+  - ~~if add {tableview add(logo&items) [API]~~
+  - ~~else {diff screen + recommend screen}~~
+  - ~~Edit -> getBrandData [API]~~
+  - ~~See all product -> getBrandItemData[API]~~
   
 ### SearchScreen (Present)
 - ~~Back to HomeScreen~~
-- ~~Follow On/Off
-- ~~RecommedBrand [API]
-- ~~Recent Search(Add and delete) -> **Need Research**
+- ~~Follow On/Off~~
+- ~~RecommedBrand [API]~~
+- ~~Recent Search(Add and delete) -> **Need Research**~~
 
 ### RegisterScreen (Present)
 - ~~MainScreen~~ 
-- ~~DirectDealingButton
-- ~~PhotoButton
-  - ~~getAuthorityToAlbum **Need Research**
-- ~~ProductName
-- ~~Category [API??]
-- ~~Tag
-  - ~~Add tag and give data back to previous screen
-- ~~Option
+- ~~DirectDealingButton~~
+- ~~PhotoButton~~
+  - ~~getAuthorityToAlbum **Need Research**~~
+- ~~ProductName~~
+- ~~Category [API??]~~
+- ~~Tag~~
+  - ~~Add tag and give data back to previous screen~~
+- ~~Option~~
 
 ### ChatScreen
 - ~~MainScreen~~ 
-- ~~Setting
-- ~~ChatSetting
-- ~~ChatInfo
-- ~~ChatInsideSetting
+- ~~Setting~~
+- ~~ChatSetting~~
+- ~~ChatInfo~~
+- ~~ChatInsideSetting~~
 
 ### MyPageScreen
 - ~~PointScreen~~ 
 - ~~AlarmScreen~~ 
 - ~~SettingScreen~~ 
-- ~~Search / Filter / Align / Edit
-- ~~LikeScreen
-  - ~~collectionView + CRUD (Recent Product)
-  - ~~Filter
+- ~~Search / Filter / Align / Edit~~
+- ~~LikeScreen~~
+  - ~~collectionView + CRUD (Recent Product)~~
+  - ~~Filter~~
 - ~~FeedbackScreen~~
 - ~~FollowerScreen~~
 - ~~FollowingScreen~~
 - ~~TransactionScreen~~
 - ~~ParcelManagementScreen~~
-- ~~SellerCenterScreen
-  - ~~Left Screen Pop up **Need Research**
-  - ~~NavigationBar Title Popups when Scroll down ***Need Research***
-- ~~ServiceCenterScreen
-  - ~~GetID [API]
+- ~~SellerCenterScreen~~
+  - ~~Left Screen Pop up **Need Research**~~
+  - ~~NavigationBar Title Popups when Scroll down ***Need Research***~~
+- ~~ServiceCenterScreen~~
+  - ~~GetID [API]~~
   
 ---
 ---
